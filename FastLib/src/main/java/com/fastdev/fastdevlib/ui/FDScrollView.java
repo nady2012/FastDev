@@ -5,9 +5,10 @@ import android.os.Handler;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.ListView;
+import android.widget.ScrollView;
 
 
-public class ScrollView extends ScrollView {
+public class FDScrollView extends ScrollView {
 
     private OnScrollListener onScrollListener;
     /**
@@ -19,15 +20,15 @@ public class ScrollView extends ScrollView {
 
     private boolean isEnableScroll = true;
 
-    public ScrollView(Context context) {
+    public FDScrollView(Context context) {
         this(context, null);
     }
 
-    public ScrollView(Context context, AttributeSet attrs) {
+    public FDScrollView(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public ScrollView(Context context, AttributeSet attrs, int defStyle) {
+    public FDScrollView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
     }
 
@@ -60,7 +61,7 @@ public class ScrollView extends ScrollView {
     private Handler handler = new Handler() {
 
         public void handleMessage(android.os.Message msg) {
-            int scrollY = ScrollView.this.getScrollY();
+            int scrollY = FDScrollView.this.getScrollY();
 
             // 此时的距离和记录下的距离不相等，在隔5毫秒给handler发送消息
             if (lastScrollY != scrollY) {

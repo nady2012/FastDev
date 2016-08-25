@@ -15,13 +15,13 @@ import com.fastdev.fastdevlib.R;
  * Used to show a custom AlertDialog.
  * 
  */
-public class PopupWindow {
+public class FDPopupWindow {
 
     private Context ctx;
 
     private android.widget.PopupWindow popupWindow;
 
-    public PopupWindow(Context context) {
+    public FDPopupWindow(Context context) {
         ctx = context;
     }
 

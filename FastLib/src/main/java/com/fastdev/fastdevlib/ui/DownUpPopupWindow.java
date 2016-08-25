@@ -23,7 +23,7 @@ import android.widget.Toast;
 import com.fastdev.fastdevlib.R;
 
 /**
- * A subclass of {@link PopupWindow} to show a custom PopupWindow.
+ * A subclass of {@link PopupWindow} to show a custom FDPopupWindow.
  * 
  */
 @SuppressLint("ViewConstructor")
@@ -47,7 +47,7 @@ public class DownUpPopupWindow extends PopupWindow {
      * @param context
      *            The context of Android operation system (OS).
      * @param txtResID
-     *            The String resource ID of the PopupWindow title
+     *            The String resource ID of the FDPopupWindow title
      * @param btnResIDs
      *            The String resource ID of each button on this popup window.
      * @param btnTxtColorIDs
@@ -76,7 +76,7 @@ public class DownUpPopupWindow extends PopupWindow {
      * @param context
      *            The context of Android operation system (OS).
      * @param txtResID
-     *            The String resource ID of the PopupWindow title
+     *            The String resource ID of the FDPopupWindow title
      * @param btnResIDs
      *            The String resource ID of each button on this popup window.
      * @param itemsListener
