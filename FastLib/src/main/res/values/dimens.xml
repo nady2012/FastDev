@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="main_tab_height_001">57dp</dimen>
+    <dimen name="main_tab_height_002">48dp</dimen>
+    <dimen name="title_bar_left_title_padding_left">52dp</dimen>
+    <dimen name="title_bar_left_button_size">20dp</dimen>
+    <dimen name="title_bar_left_button_padding">16dp</dimen>
+    <dimen name="font_size0">10sp</dimen>
+    <dimen name="font_size1">12sp</dimen>
+    <dimen name="font_size3">16sp</dimen>
+    <dimen name="font_size4">18sp</dimen>
+    <dimen name="font_size5">20sp</dimen>
+    <dimen name="font_size6">22sp</dimen>
+    <dimen name="font_size7">28sp</dimen>
+    <dimen name="font_size8">38sp</dimen>
+    
+     <!--距界面两边的间距-->
+    <dimen name="margin_page_frame_blue_btn">13dip</dimen><!-- 全局蓝色按钮-->
+    <dimen name="margin_page_frame_red_btn">13dip</dimen><!-- 全局红色按钮-->
+    <dimen name="margin_page_frame_portrait_in_list">13dip</dimen> <!-- 列表中的头像-->
+    <dimen name="margin_page_frame_list_content">18dip</dimen><!-- 列表内容-->
+    <dimen name="margin_page_frame_title_bar_icon">18dip</dimen><!-- Title图标-->
+    <dimen name="margin_page_frame_details_content">22dip</dimen> <!-- 详情内容 -->
+    <dimen name="xspinfoitenview_left_padding">4dp</dimen>
+    <dimen name="margin_frame_vatar_padding">13dp</dimen>
+    <dimen name="margin_setting_list_spacing">20dp</dimen>
+    <dimen name="message_unread_size">23sp</dimen>
+    <dimen name="font_size_4">12sp</dimen>
+
+
+
+    <!-- 侧边索引栏尺寸 -->
+    <dimen name="letter_size">10sp</dimen>
+    <dimen name="column_gap">5dip</dimen>
+    <dimen name="column_min_width">23dip</dimen>
+    
+    <dimen name="portrait_size">52dp</dimen>
+    <dimen name="portrait_marginleft">8dp</dimen>
+	<dimen name="portrait_margintop">16.5dp</dimen>
+	
+    <dimen name="font_dial_keyboard_default">18sp</dimen>
+
+    <dimen name="paddingLeft">15dp</dimen>
+    <dimen name="paddingright">15dp</dimen>
+    <dimen name="paddingtop">10dp</dimen>
+    <dimen name="paddingbottom">10dp</dimen>
+
+    <dimen name="height_contat_list_item">65dip</dimen>
+    
+    <dimen name="button_paddingLeft">16dp</dimen>
+    <dimen name="button_paddingright">16dp</dimen>
+    <dimen name="button_paddingtop">18dp</dimen>
+    <dimen name="button_paddingbottom">18dp</dimen>
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="small_button_height">38dp</dimen>
+
+    <dimen name="size_default_height">160dp</dimen>
+    
+    <dimen name="item_default_height">50dp</dimen>
+    
+    <dimen name="empty_view_marginTop">35dp</dimen>
+    <dimen name="empty_view_title_marginTop">24dp</dimen>
+    
+    <dimen name="empty_view_title_text_size">16sp</dimen>
+    <dimen name="common_timer_height">30dp</dimen>
+
+    <dimen name="listview_item_height">48dp</dimen>
+    <dimen name="common_divide_line_height">1dp</dimen>
+    <dimen name="common_divide_padding_ver">12dp</dimen>
+    <dimen name="dialog_004_width">280dp</dimen>
+    <dimen name="dialog_004_height">170dp</dimen>
+
+
+
+    <!--hy font size-->
+
+
+    <dimen name="hy_font_size_14">14sp</dimen>
+    <dimen name="hy_font_size_15">15sp</dimen>
+    <dimen name="hy_font_size_16">16sp</dimen>
+    <dimen name="hy_font_size_17">17sp</dimen>
+    <dimen name="hy_font_size_18">18sp</dimen>
+    <dimen name="hy_font_size_20">20sp</dimen>
+    <dimen name="hy_font_size_24">24sp</dimen>
+    <dimen name="hy_font_size_40">40sp</dimen>
+
+    <dimen name="hy_grid_item_padding_horizontal">16dp</dimen>
+    <dimen name="hy_item_height_56">56dp</dimen>
+    <dimen name="hy_item_height_40">40dp</dimen>
+    <dimen name="hy_item_height_44">44dp</dimen>
+    <dimen name="hy_item_height_100">100dp</dimen>
+</resources>

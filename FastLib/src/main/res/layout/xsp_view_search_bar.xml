@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/hy_col_11"
+    android:gravity="center_vertical" >
+
+    <RelativeLayout
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="45dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <EditText
+            android:id="@+id/search_edit"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/search_clear"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/common_search"
+            android:drawablePadding="10dip"
+            android:imeOptions="actionSearch"
+            android:inputType="textNoSuggestions"
+            android:paddingLeft="13dip"
+            android:saveEnabled="true"
+            android:singleLine="true"
+            android:maxLength="32"
+            android:textColor="@color/hy_col_1"
+            android:textColorHint="@color/gray"
+            android:textSize="@dimen/hy_font_size_14" />
+
+        <ImageButton
+            android:id="@+id/search_clear"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:scaleType="center"
+            android:src="@drawable/common_input_delete_selector"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/search_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@null"
+        android:textSize="@dimen/hy_font_size_16"
+        android:textColor="@color/hy_col_1"
+        android:text="@string/str_cancel"
+        android:visibility="visible" />
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_default_height"
+    android:background="@android:color/transparent" >
+
+    <TextView
+        android:id="@+id/xsp_view_switch_001_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingLeft="@dimen/paddingLeft"
+        android:paddingRight="@dimen/paddingright"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <com.huawei.cipher.common.ui.XSPSwitchButton
+        android:id="@+id/xsp_view_switch_001_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/paddingLeft"
+        android:layout_marginRight="@dimen/paddingright" />
+
+</RelativeLayout>
