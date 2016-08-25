@@ -57,7 +57,7 @@
         <attr name="rightClearIcon" format="reference" />
         <attr name="inputHint" format="reference" />
     </declare-styleable>
-    <declare-styleable name="XSPTimerView">
+    <declare-styleable name="TimerView">
 
         <!-- 计时开始时间 -->
         <attr name="max_seconds" format="integer"></attr>

@@ -9,7 +9,6 @@ import android.view.ViewGroup;
 
 
 import com.fastdev.fastdevlib.R;
-import com.fastdev.fastdevlib.service.XSTipsBarImpl;
 
 import butterknife.ButterKnife;
 
@@ -20,13 +19,13 @@ import butterknife.ButterKnife;
  * @ClassName: BaseFragment
  * @date 2014年11月20日 上午10:12:23
  */
-public abstract class BaseFragment extends Fragment implements XSTipsBarImpl {
+public abstract class BaseFragment extends Fragment implements TipsBarImpl {
 
     protected LayoutInflater mInflater;
     /**
      * TipsBar 子类初始化后才可以使用
      */
-    protected XSWTipsBarView tipsBarView;
+    protected TipsBarView tipsBarView;
     private View mView;
     private int mLayoutId;
 
@@ -99,9 +98,9 @@ public abstract class BaseFragment extends Fragment implements XSTipsBarImpl {
             return;
         }
         if (isSuc) {
-            tipsBarView.showSucTipsBarDelay(message, XSWTipsBarView.COMMON_TIPS_LAST_TIME, false);
+            tipsBarView.showSucTipsBarDelay(message, TipsBarView.COMMON_TIPS_LAST_TIME, false);
         } else {
-            tipsBarView.showFailTipsBarDelay(message, XSWTipsBarView.COMMON_TIPS_LAST_TIME,false);
+            tipsBarView.showFailTipsBarDelay(message, TipsBarView.COMMON_TIPS_LAST_TIME,false);
         }
     }
 

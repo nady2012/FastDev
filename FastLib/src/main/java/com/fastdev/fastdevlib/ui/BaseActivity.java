@@ -6,11 +6,10 @@ import android.os.Bundle;
 import android.view.Window;
 
 import com.fastdev.fastdevlib.R;
-import com.fastdev.fastdevlib.service.XSTipsBarImpl;
 
 import butterknife.ButterKnife;
 
-public abstract class BaseActivity extends Activity implements XSTipsBarImpl {
+public abstract class BaseActivity extends Activity implements TipsBarImpl {
     /**
      * 当前页面对象 方便调用
      */
@@ -18,7 +17,7 @@ public abstract class BaseActivity extends Activity implements XSTipsBarImpl {
     /**
      * TipsBar 子类初始化后才可以使用
      */
-    protected XSWTipsBarView tipsBarView;
+    protected TipsBarView tipsBarView;
 
     @Override
     protected void onCreate(Bundle bundle) {
@@ -167,9 +166,9 @@ public abstract class BaseActivity extends Activity implements XSTipsBarImpl {
             return;
         }
         if (isSuc) {
-            tipsBarView.showSucTipsBarDelay(message, XSWTipsBarView.COMMON_TIPS_LAST_TIME, false);
+            tipsBarView.showSucTipsBarDelay(message, TipsBarView.COMMON_TIPS_LAST_TIME, false);
         } else {
-            tipsBarView.showFailTipsBarDelay(message, XSWTipsBarView.COMMON_TIPS_LAST_TIME, false);
+            tipsBarView.showFailTipsBarDelay(message, TipsBarView.COMMON_TIPS_LAST_TIME, false);
         }
     }
 

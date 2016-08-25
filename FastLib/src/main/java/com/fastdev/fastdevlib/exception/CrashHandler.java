@@ -8,7 +8,7 @@ import android.util.Log;
 
 
 import com.fastdev.fastdevlib.log.LogApi;
-import com.fastdev.fastdevlib.util.XSFileUtil;
+import com.fastdev.fastdevlib.util.FileUtil;
 
 import java.io.File;
 import java.io.PrintWriter;
@@ -88,11 +88,11 @@ public class CrashHandler implements UncaughtExceptionHandler {
 
         sb.append(result);
         try {
-            String crashFileDir = XSFileUtil.getCurrentLogPath() + File.separator + this.crashLogFileName;
+            String crashFileDir = FileUtil.getCurrentLogPath() + File.separator + this.crashLogFileName;
 
-            XSFileUtil.deleteFile(crashFileDir);
+            FileUtil.deleteFile(crashFileDir);
 
-            XSFileUtil.saveToFile(crashFileDir, sb);
+            FileUtil.saveToFile(crashFileDir, sb);
         } catch (Exception e) {
             Log.e(TAG, "an error occured while writing file...", e);
         }

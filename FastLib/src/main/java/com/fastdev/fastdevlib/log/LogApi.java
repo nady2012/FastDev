@@ -2,9 +2,9 @@ package com.fastdev.fastdevlib.log;
 
 import android.util.Log;
 
-import com.fastdev.fastdevlib.util.XSFileUtil;
-import com.fastdev.fastdevlib.util.XSThreadUtil;
-import com.fastdev.fastdevlib.util.XSTimeUtil;
+import com.fastdev.fastdevlib.util.FileUtil;
+import com.fastdev.fastdevlib.util.ThreadUtil;
+import com.fastdev.fastdevlib.util.TimeUtil;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -85,7 +85,7 @@ public class LogApi {
     }
 
     private static void addLogBuffer(int type, String tag, String msg) {
-        String time = XSTimeUtil.getTime();
+        String time = TimeUtil.getTime();
 
         String typeStr = "Error";
         switch (type) {
@@ -109,7 +109,7 @@ public class LogApi {
                 List<String> newLogsBuffer = new ArrayList<String>();
                 newLogsBuffer.addAll(logsBuffer);
                 logsBuffer.clear();
-                XSThreadUtil.getInstance().submitTask(new LogsSaveRunnable(newLogsBuffer));
+                ThreadUtil.getInstance().submitTask(new LogsSaveRunnable(newLogsBuffer));
             }
         }
     }
@@ -123,7 +123,7 @@ public class LogApi {
             newLogsBuffer.addAll(logsBuffer);
             logsBuffer.clear();
 
-            XSThreadUtil.getInstance().submitTask(new LogsSaveRunnable(newLogsBuffer));
+            ThreadUtil.getInstance().submitTask(new LogsSaveRunnable(newLogsBuffer));
         }
     }
 
@@ -149,11 +149,11 @@ public class LogApi {
                 return;
             }
 
-            String logFilePath = XSFileUtil.getCurrentLogPath();
-            String filePath = logFilePath + File.separator + XSTimeUtil.getTime() + ".log";
+            String logFilePath = FileUtil.getCurrentLogPath();
+            String filePath = logFilePath + File.separator + TimeUtil.getTime() + ".log";
             // 判断日志附件量是否超过最大值
-            XSFileUtil.deleteFileByDate(logFilePath);
-            XSFileUtil.saveToFile(filePath, buffer);
+            FileUtil.deleteFileByDate(logFilePath);
+            FileUtil.saveToFile(filePath, buffer);
         }
 
     }
