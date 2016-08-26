@@ -1,15 +1,8 @@
 package com.fastdev.fastdevlib.ui;
 
 import android.content.Context;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.ViewGroup.LayoutParams;
-import android.widget.PopupWindow;
-
-import com.fastdev.fastdevlib.R;
 
 /**
  * Used to show a custom AlertDialog.
