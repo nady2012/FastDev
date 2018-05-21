@@ -1,1 +1,11 @@
-include ':FastLib'
+
+def initGradleEnvironment() {
+    Properties properties = new Properties()
+    File propertyFile = new File(rootDir.getAbsolutePath() + "/local.properties")
+    properties.load(propertyFile.newDataInputStream())
+}
+
+initGradleEnvironment()
+include ':app', ':mambasdk'
+
+
