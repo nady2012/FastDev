@@ -1,5 +1,7 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-
+ext {
+    mambaSdkVersion = "0.0.1"
+}
 buildscript {
     repositories {
         jcenter()
@@ -20,7 +22,7 @@ allprojects {
     repositories {
         jcenter()
         maven{
-            url {"https://sjf.bintray.com/Mamba"}
+            url {"https://dl.bintray.com/kavensjf/mamba"}
         }
         google()
     }

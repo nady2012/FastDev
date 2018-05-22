@@ -3,9 +3,13 @@ def initGradleEnvironment() {
     Properties properties = new Properties()
     File propertyFile = new File(rootDir.getAbsolutePath() + "/local.properties")
     properties.load(propertyFile.newDataInputStream())
+    gradle.ext.sourceMambaSdk = Boolean.parseBoolean(properties.getProperty('sourceMambaSdk'))
 }
 
 initGradleEnvironment()
-include ':app', ':mambasdk'
-
+include ':app'
+if (gradle.ext.sourceMambaSdk) {
+    include ':mambasdk'
+    project(':mambasdk').projectDir = new File(rootProject.projectDir, '/mambasdk')
+}
 

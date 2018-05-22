@@ -22,4 +22,9 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
+    if (gradle.ext.sourceMambaSdk) {
+        compile project(':mambasdk')
+    } else {
+        compile "com.kavensjf:mamba:$rootProject.ext.mambaSdkVersion"
+    }
 }

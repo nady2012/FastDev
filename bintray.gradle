@@ -81,8 +81,7 @@ bintray {
     publish = true
 
     pkg {
-        userOrg = "sjf"
-        repo = "Mamba"
+        repo = "mamba"
         name = PROJ_NAME
         desc = PROJ_DESCRIPTION
         websiteUrl = PROJ_WEBSITEURL
