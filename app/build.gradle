@@ -4,7 +4,7 @@ android {
     compileSdkVersion 27
     defaultConfig {
         applicationId "com.mamba.app"
-        minSdkVersion 16
+        minSdkVersion 18
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
@@ -25,6 +25,6 @@ dependencies {
     if (gradle.ext.sourceMambaSdk) {
         compile project(':mambasdk')
     } else {
-        compile "com.kavensjf:mamba:$rootProject.ext.mambaSdkVersion"
+        compile "com.kavensjf:mambasdk:$rootProject.ext.mambaSdkVersion"
     }
 }
