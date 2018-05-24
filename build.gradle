@@ -5,6 +5,8 @@ ext {
     buildToolsVersion =  "25.0.0"
     minSdkVersion = 18
     targetSdkVersion = 22
+    repoChanelJitPack="jitpack"
+    repoChanelJCenter="jcenter"
 }
 buildscript {
     repositories {
@@ -20,9 +22,11 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-        maven{
-            url {"https://dl.bintray.com/kavensjf/mamba"}
-        }
+//        maven{
+//            url {"https://dl.bintray.com/kavensjf/mamba"}
+//        }
+
+        maven { url 'https://jitpack.io' }
     }
 }
 
