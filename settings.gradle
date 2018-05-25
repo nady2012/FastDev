@@ -5,6 +5,8 @@ def initGradleEnvironment() {
     properties.load(propertyFile.newDataInputStream())
     gradle.ext.sourceMambaSdk = Boolean.parseBoolean(properties.getProperty('sourceMambaSdk'))
     gradle.ext.repoChannel = String.valueOf(properties.getProperty('repoChannel'))
+    gradle.ext.mambaSdkJCenterVersion = String.valueOf(properties.getProperty('mambaSdkJCenterVersion'))
+    gradle.ext.mambaSdkJitPackVersion = String.valueOf(properties.getProperty('mambaSdkJitPackVersion'))
 }
 
 initGradleEnvironment()

@@ -24,9 +24,9 @@ dependencies {
         compile project(':mambasdk')
     } else {
         if(rootProject.ext.repoChanelJCenter==gradle.ext.repoChannel){
-            compile "com.kavensjf:mambasdk:$rootProject.ext.mambaSdkVersion"
+            compile "com.kavensjf:mambasdk:$gradle.ext.mambaSdkJCenterVersion"
         }else {
-            compile 'com.github.nady2012:FastDev:0.0.3'
+            compile "com.github.nady2012:FastDev:$gradle.ext.mambaSdkJitPackVersion"
         }
 
     }

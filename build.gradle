@@ -1,6 +1,5 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 ext {
-    mambaSdkVersion = "0.0.2"
     compileSdkVersion = 26
     buildToolsVersion =  "26.0.2"
     minSdkVersion = 18
