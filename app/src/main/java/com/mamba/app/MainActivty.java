@@ -57,4 +57,8 @@ public class MainActivty extends BaseFragmentActivity{
     public void onVideoCacheDemoClick(View view) {
         startActivity(new Intent(this,VideoDemoActivity.class));
     }
+
+    public void onTimePickerDemoClick(View view) {
+        startActivity(new Intent(this,TimePickDemoActivity.class));
+    }
 }

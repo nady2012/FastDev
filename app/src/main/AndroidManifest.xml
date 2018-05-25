@@ -4,7 +4,8 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <application
-        android:allowBackup="true">
+        android:allowBackup="true"
+        android:theme="@android:style/Theme.Holo.Light">
 
         <activity
             android:name=".MainActivty"
@@ -18,9 +19,12 @@
         </activity>
         <activity
             android:name=".VideoDemoActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden">
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".TimePickDemoActivity"
+            android:screenOrientation="portrait">
         </activity>
     </application>
 </manifest>

@@ -24,4 +24,15 @@
         android:text="video cache demo"
         android:textColor="#242424"
         android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/shape_hemu_rectangle_stroke_gray"
+        android:gravity="center"
+        android:onClick="onTimePickerDemoClick"
+        android:text="time picker demo"
+        android:textColor="#242424"
+        android:textSize="18dp"/>
 </LinearLayout>

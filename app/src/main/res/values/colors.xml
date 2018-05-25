@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 网关相关 -->
+    <color name="shadow_text_color">#27A7Bc</color>
+    <color name="speed_report_reminder_bg">#FFE3F2F0</color>
+    <color name="speed_report_text_color">#FF31C1B2</color>
+
+    <!-- Uni APP UI命名规范 2016.5.26   start -->
+    <!--titlebar背景色  -->
+    <color name="title_bar_cor">#ffffff</color>
+    <!--背景色 主色调 -->
+    <color name="bgcor1">#30c0b1</color>
+    <!--用于button按下时 -->
+    <color name="bgcor1press">#06a09b</color>
+    <!--内容区背景色 -->
+    <color name="bgcor2">#f4f4f4</color>
+    <!--列表或者button -->
+    <color name="bgcor3">#ffffff</color>
+    <!--列表或者button 按下时-->
+    <color name="bgcor3press">#e9e9e9</color>
+    <!--新消息提醒标示-->
+    <color name="bgcor4">#ff3b30</color>
+    <!--头像背景色 红-->
+    <color name="headBgcorRed">#ff5c5c</color>
+    <!--新消息提醒 蓝-->
+    <color name="headBgcorBlue">#5c8aff</color>
+    <!--新消息提醒 黄-->
+    <color name="headBgcorYellow">#ffb800</color>
+    <!-- 文字颜色 用于白色button上的文字-->
+    <color name="cor1">#30c0b1</color>
+    <color name="cor1_30">#4C30c0b1</color>
+    <color name="cor11">#30BFB0</color>
+
+    <!--文字颜色 用于出错提示 -->
+    <color name="cor2">#e34c4c</color>
+    <!--文字颜色 主标题 正文-->
+    <color name="cor3">#242424</color>
+    <color name="cor3_20alpha">#33242424</color>
+
+    <color name="cor31">#12A7E3</color>
+    <!--文字颜色 次标题 -->
+    <color name="cor4">#898989</color>
+    <color name="cor4_sub">#3B3B3B</color>
+    <!--文字颜色 辅助说明-->
+    <color name="cor5">#ebebeb</color>
+    <!--文字颜色 有颜色button上的文字 -->
+    <color name="cor6">#ffffff</color>
+    <color name="cor6_40">#66ffffff</color>
+
+    <!--文字颜色 浅灰色button上的文字 -->
+    <color name="cor7">#b2b2b2</color>
+    <!--浅色背景 -->
+    <color name="cor8">#4430c0b1</color>
+    <color name="new_cor8">#FD8E44</color>
+    <!-- 目前用于聊天照片提示-->
+    <color name="cor9">#FFB800</color>
+    <!--引导背景色 -->
+    <color name="cor_guide_gray">#A5000000</color>
+
+    <!--分割线颜色 背景有底色时的分割线-->
+    <color name="lincor1">#ffffff</color>
+    <!--分割线颜色 正文列表分割线 -->
+    <color name="lincor2">#dcdcdc</color>
+    <!--分割线颜色 正文列表分割线 -->
+    <color name="lincor3">#E4E4E4</color>
+    <!--透明背景 -->
+    <color name="uni_transparent">#00000000</color>
+
+    <color name="black_overlay">#66000000</color>
+    <!-- Uni APP UI命名规范 2016.5.26   end -->
+
+    <color name="dialog_bottom_sep_line_color">#F4F4F4</color>
+
+    <color name="multiimageselectoractivity_bg">#21282C</color>
+    <color name="black">#FF000000</color>
+
+    <color name="transparent0.5">#80000000</color>
+    <color name="cor16">#2374fa</color>
+    <color name="cor16_0.6">#662374fa</color>
+    <!--通知栏背景 -->
+    <color name="cor17">#2e2e2e</color>
+    <color name="cor18">#fa3232</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <!-- IM 使用颜色 start -->
+    <!-- im background color -->
+    <color name="im_bgcor1">#e9e9e9</color>
+    <color name="im_bgcor_pulllist">#f4f4f4</color>
+
+    <!-- 全透明，用于image load 失败的情况下错误图片显示 -->
+    <color name="im_transparent">#00000000</color>
+    <color name="im_transparent0.3">#49000000</color>
+    <color name="im_transparent0.4">#66000000</color>
+    <color name="im_transparent0.5">#80000000</color>
+    <color name="im_transparent0.6">#99000000</color>
+    <color name="im_transparent0.7">#b2000000</color>
+    <color name="im_transparent0.8">#cc000000</color>
+    <color name="im_transparent0.9">#E5000000</color>
+
+    <!-- 纯色 -->
+    <color name="im_purcor1">#5a5060</color>
+    <color name="im_purcor2">#776c7e</color>
+    <color name="im_purcor3">#a33aac</color>
+    <color name="im_purcor4">#c1afcc</color>
+    <color name="im_yelcor1">#f7de36</color>
+    <color name="im_yelcor2">#f3cf20</color>
+    <color name="im_whitcor1">#ffffff</color>
+    <color name="im_redcor1">#ff0f0f</color>
+    <color name="im_redcor2">#f21818</color>
+    <color name="im_bluecor1">#00a8ff</color>
+    <color name="im_cor_red">#f75a53</color>
+    <color name="im_cor_blue">#499dfb</color>
+    <color name="im_cor_orange">#f7b946</color>
+    <color name="im_cor_green">#2be11d</color>
+    <color name="im_cor_light_green">#a3f773</color>
+
+    <!-- font press color -->
+    <color name="im_cor_red_press">#dc3c35</color>
+    <color name="im_cor_blue_press">#277fe2</color>
+    <color name="im_cor_orange_press">#e2a129</color>
+    <color name="im_cor_green_press">#1ac20d</color>
+    <color name="im_btn_green_pre">#6DD100</color>
+    <color name="im_cor_light_green_press">#8ae456</color>
+    <color name="im_title_btn_pre_bg">#2e3848</color>
+    <color name="im_title_btn_more_pre_bg">#1d2736</color>
+
+    <!-- news font color -->
+    <color name="news_font_cor1">#333333</color>
+    <color name="news_font_cor2">#999999</color>
+    <color name="news_font_cor3">#31c1b2</color>
+    <color name="news_font_cor4">#ffffff</color>
+    <color name="news_font_cor5">#666666</color>
+    <color name="news_divider_cor3">#F4F4F4</color>
+
+    <!-- news font color -->
+    <!-- news bg color -->
+    <color name="news_bg_cor1">#d8d8d8</color>
+    <color name="news_bg_cor2">#ffffff</color>
+    <color name="news_bg_cor3">#e3f2f0</color>
+    <color name="news_bg_cor4">#F4F4F4</color>
+    <!-- news bg color -->
+
+    <!-- font color -->
+    <color name="im_title_fontcor">@color/im_whitcor1</color>
+    <color name="im_fontcor1">#333333</color>
+    <color name="im_fontcor2">#666666</color>
+    <color name="im_fontcor3">#999999</color>
+    <color name="im_fontcor4">#cccccc</color>
+    <color name="im_fontcor5">#888888</color>
+    <color name="im_fontcor6">#499dfb</color>
+    <color name="im_fontcor7">#a2bbcc</color>
+    <color name="im_fontcor8">#c9c9c9</color>
+    <color name="im_fontcor9">#80ffffff</color>
+    <color name="im_fontcor10">#999999</color>
+    <color name="im_fontcor11">#cccccc</color>
+    <color name="im_fontcor12">#898989</color>
+    <color name="im_translucent">#b0b0b0</color>
+
+    <!-- line color -->
+
+    <color name="im_linecor1">#dcdcdc</color>
+    <color name="im_linecor2">#d9d9d9</color>
+    <color name="im_linecor3">#a99ab2</color>
+    <color name="im_linecor4">#2b384c</color>
+    <color name="im_linecor5">#1a2332</color>
+
+    <color name="im_not_network_cor">#fffad7</color>
+    <color name="im_item_press_color">#e6e6e6</color>
+    <color name="im_popup_item_press_color">#ebebeb</color>
+
+    <color name="im_bgcor4">#f8f8f8</color>
+    <color name="im_bgcor5">#4bbde7</color>
+    <color name="im_bgcor6">#ebebeb</color>
+    <color name="im_bgcor7">#3a475c</color>
+    <color name="im_bgcor8">#e13a475c</color>
+    <color name="im_bgcor9">#ff2400</color>
+    <color name="im_bgcor10">#1A000000</color>
+    <color name="im_bgcor11">#dddddd</color>
+    <color name="im_bgcor12">#f0f0f0</color>
+    <color name="im_bgcor13">#f5f5f5</color>
+    <color name="im_bgcor14">#aaaaaa</color>
+    <color name="im_bgcor15">#ffbbbbbb</color>
+    <color name="im_bgcor16">#ffffff</color>
+
+    <color name="im_popup_btn_cor">@color/cor1</color>
+    <color name="im_portrait_bg_cor">#83d9d0</color>
+    <!-- IM 使用颜色 end -->
+
+    <color name="transparent_5_black">#0D000000</color>
+    <color name="transparent_5_white">#80FFFFFF</color>
+    <color name="transparent_black_background">#7F000000</color>
+    <color name="smart_hardware_icon_background_uninstalled">#C2C2C2</color>
+    <color name="smart_hardware_price">#FD8E44</color>
+    <color name="bgcor1_covered_50">#175e56</color>
+    <color name="bgcor3_transparent_40">#66ffffff</color>
+    <color name="purchase_button_text_color">#FFB800</color>
+    <color name="one_key_checkup_is_running">#5dd389</color>
+    <color name="one_key_checkup_failed">#fc5769</color>
+
+    <!--flux color-->
+    <color name="flux_progress_less">#FF3B30</color>
+    <color name="flux_progress_more">#5C8AFF</color>
+
+    <!--flux color end -->
+    <!--settings color-->
+    <color name="setting_bottom_background">#ededed</color>
+    <color name="setting_bottom_background_transparent">#80ededed</color>
+    <color name="setting_divide_line">#dcdcdc</color> <!--colorGrey2-->
+    <color name="setting_text_green">#18a74f</color> <!--colorGreen1-->
+    <color name="setting_text_final">#666666</color> <!--colorGreen1-->
+    <color name="setting_nick_background">#e5e5e5</color><!--colorGrey4-->
+    <color name="setting_nick_edittext_line">#30ca60</color>
+    <color name="btn_background">#acafad</color>
+    <color name="settings_background">#f4f4f4</color>
+    <color name="toast_background">#0f000000</color>
+    <color name="btn_pressed">#d4d4d4</color>
+    <color name="setting_nick">#666666</color>
+    <color name="setting_divide">#cccccc</color>
+    <color name="color_feedback_toast">#ffffff</color> <!--colorWhite-->
+    <color name="color_logout">#ff6a42</color> <!--colorWhite-->
+    <color name="color_new_version">#fcab2c</color> <!--colorWhite-->
+    <color name="new_version_divide">#a5e9b3</color> <!--colorWhite-->
+    <color name="new_version_title">#35b34f</color> <!--colorWhite-->
+
+    <!-- VOIP color start -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--contact color -->
+    <color name="con_header_color">#eeeeee</color>
+    <color name="side_text_color">#ffffff</color>
+    <color name="side_back_color">#161d1a</color>
+    <color name="divider_color">#cccccc</color>
+    <color name="conf_notice_text_color">#dbffe4</color>
+    <color name="sidebar_choose_color">#31b85e</color>
+    <color name="search_box_color">#f6f6f6</color>
+    <color name="contact_snackbar">#ffc322</color>
+
+
+    <!--account color-->
+    <color name="account_title">#ecfff4</color>
+    <color name="account_illustration_title">#999999</color>
+
+    <!--conference color-->
+    <color name="conference_theme_error_color">#f94b4b</color>
+    <color name="videoconference_tips_color">#e5e5e5</color>
+
+    <!--login color-->
+    <color name="btn_get_verification_code">#13bf5b</color>
+    <color name="colorVerificationCode">#35bd60</color> <!--colorGreen-->
+    <color name="colorWrongNumberText">#999999</color><!--colorGrey-->
+    <color name="colorGrey">#a0999999</color><!--colorGrey-->
+    <color name="colorWrongNumberTitle">#333333</color><!--colorBlack-->
+    <color name="colorSendAgainText">#18a74f</color><!--colorBlack-->
+    <color name="btn_background_green">#13bf5b</color><!--btn_background-->
+    <color name="colorWrongVerificatioCode">#fe5224</color><!--colorRed-->
+    <color name="colorWhite2">#BEBEBE</color>
+    <color name="colorGrey1">#f5f4f4</color>
+    <color name="colorGrey3">#cccccc</color>
+    <color name="meeting_call_num">#b5ffce</color>
+    <color name="colorGreenButton">#13bf5b</color>
+    <color name="colorGray">#cecece</color>
+    <color name="search_no_result">#bbc3bd</color>
+    <color name="join_conference">#3fc475</color>
+    <!-- VOIP color end -->
+
+
+    <!-- 智能提速 color  -->
+    <color name="btn_unable_use_color">#c2c2c2</color>
+    <!-- 智能家居 -->
+    <color name="smart_home_text_color_1">#333333</color>
+    <color name="smart_home_text_color_2">#666666</color>
+    <color name="smart_home_text_color_3">#ffffff</color>
+    <color name="smart_home_text_color_4">#999999</color>
+    <color name="smart_home_text_color_5">#30c0b1</color>
+    <color name="smart_home_text_color_6">#56a3ff</color>
+    <color name="smart_home_line_color_1">#e0e0e0</color>
+    <color name="smart_home_line_color_2">#1a30c0b1</color>
+    <color name="smart_home_background_1">#f4f4f4</color>
+    <color name="smart_home_background_2">#ffffff</color>
+    <color name="smart_home_background_3">#e9e9e9</color>
+    <color name="smart_home_button_normal">#30c0b1</color>
+    <color name="smart_home_button_pressed">#06a09b</color>
+    <color name="smart_home_button_white_normal">#ffffff</color>
+    <color name="smart_home_button_white_pressed">#e9e9e9</color>
+    <color name="smart_home_sensor_detail_bg_offline">#3d404e</color>
+
+    <color name="njwl_border_color">#E4E4E4</color>
+    <color name="chart_temperature_comfort_zone_bgcolor">#0F30C0B1</color>
+    <color name="chart_humidity_comfort_zone_bgcolor">#0FFCB23F</color>
+    <color name="chart_line_color_temperature">#30C0B1</color>
+    <color name="chart_line_color_humidity">#FCB23F</color>
+
+    <color name="chart_border_text_color">#999999</color>
+
+    <color name="mini_gateway_control_panel_background_color">#FAFAFA</color>
+    <color name="mini_gateway_control_panel_text_color">#898989</color>
+
+    <!-- 智能提速 start -->
+    <color name="speed_up_remain_time_font_color">#e34c4c</color>
+    <!-- 智能提速 end -->
+    <!-- 首页-->
+    <color name="index_item_progress_bg">#29000000</color>
+
+    <!--相关空气质量参数-->
+    <color name="air_normal">#36C9BB</color>
+    <color name="pm_great">#05FFBB</color>
+    <color name="pm_good">#8CFF05</color>
+    <color name="pm_little_bad">#FF9900</color>
+    <color name="pm_middle_bad">#FF6600</color>
+    <color name="pm_so_bad">#FF3B30</color>
+    <color name="pm_harm">#D20000</color>
+    <color name="temp_cold">#0096FF</color>
+    <color name="temp_hot">#FF3B30</color>
+    <color name="temp_little_cold">#00B1E4</color>
+    <color name="temp_little_hot">#FF9900</color>
+    <color name="hoco_harm">#FF3B30</color>
+    <color name="humi_more">#07ADFB</color>
+    <color name="humi_less">#FF9900</color>
+
+    <!--智能体验馆-->
+    <color name="hall_roof_light_on">#eeeeee</color>
+    <color name="hall_roof_light_dim">#bcbcbc</color>
+    <color name="hall_roof_light_off">#999999</color>
+
+    <color name="hall_floor_light_on">#c1c1c1</color>
+    <color name="hall_floor_light_off">#808080</color>
+
+    <color name="rippleview_circle_cor">#30c0b1</color>
+    <color name="air_device_text_cor">#00c2f2</color>
+
+    <color name="hall_welcome_white_textColor">#ffffff</color>
+    <color name="hall_welcome_green_textColor">#30c0b1</color>
+
+    <color name="entrance_door_desc2_text_color">#4D918E</color>
+
+    <color name="cleaner_green_light">#4ddab4</color>
+    <color name="cleaner_green_dark">#39cfaa</color>
+
+    <color name="cleaner_text_color_grey">#999999</color>
+    <color name="cleaner_text_color_green">#23c0b1</color>
+    <!--相册-->
+    <color name="figure_tip_color">#AEAEAE</color>
+    <color name="figure_name_color">#000000</color>
+
+    <!--亲友-->
+    <color name="friend_delete_friend">#EB2B2B</color>
+    <color name="friend_phone_had_sys_to_tv">#F49650</color>
+    <color name="btn_bg">#3DCCB9</color>
+    <!--首页-->
+    <color name="index_divider_color">#00000000</color>
+
+    <!--我的-->
+    <color name="mine_bean_section_bg">#FF6C83</color>
+</resources>
