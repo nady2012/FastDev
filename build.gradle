@@ -1,8 +1,8 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 ext {
     mambaSdkVersion = "0.0.2"
-    compileSdkVersion = 25
-    buildToolsVersion =  "25.0.0"
+    compileSdkVersion = 26
+    buildToolsVersion =  "26.0.2"
     minSdkVersion = 18
     targetSdkVersion = 22
     repoChanelJitPack="jitpack"
@@ -11,22 +11,21 @@ ext {
 buildscript {
     repositories {
         jcenter()
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.3'
-        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.4'
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
+        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.0'
     }
 }
 
 allprojects {
     repositories {
         jcenter()
-//        maven{
-//            url {"https://dl.bintray.com/kavensjf/mamba"}
-//        }
 
         maven { url 'https://jitpack.io' }
+        google()
     }
 }
 
