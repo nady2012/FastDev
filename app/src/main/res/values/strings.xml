@@ -1,0 +1,1476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- 公共部分内容 start  -->
+    <string name="Year">年</string>
+    <string name="Month">月</string>
+    <string name="Day">日</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="update_now">立即更新</string>
+    <string name="grey_version_code">子版本号： </string>
+    <string name="update_now_title">发现新版本啦，赶紧去更新吧</string>
+    <string name="update_now_title_new">网关组件有新版本啦，快去更新吧！</string>
+    <string name="update_now_title_sub">更新过程中，不消耗手机流量，WiFi可以正常使用，APP会与网关短暂失联</string>
+    <string name="call">呼叫</string>
+    <string name="ignore">忽略</string>
+    <string name="delete">删除</string>
+    <string name="app_name">和家亲</string>
+    <string name="universal_app_name">和家亲</string>
+    <string name="home">首页</string>
+    <string name="device">设备</string>
+    <string name="life">家庭</string>
+    <string name="socially">家人</string>
+    <string name="no_network_connect">当前网络不可用，请检查设置！</string>
+    <string name="no_network_connect_none">已断开连接网络</string>
+    <string name="network_type_mobile">网络变更为移动网络</string>
+    <string name="network_type_wifi">网络变更为WiFi：%1$s</string>
+    <string name="common_loading_message">正在加载中...</string>
+    <string name="common_sim_unvalide">当前手机SIM卡不可用，请检查SIM卡状态！</string>
+    <string name="common_sim_permission_denied">当前应用被禁止使用拨打电话功能，请确认！</string>
+    <string name="common_camera_open_failed">相机打开失败，请检查权限或相关服务是否打开。</string>
+    <string name="common_no_sim_card">未安装SIM卡</string>
+    <string name="login_please_input_phone_num">请输入手机号</string>
+    <string name="login_please_input_phone_num_normal">请输入电话号码</string>
+    <string name="login_input_phone_format_error_please_reput">您输入的手机号码格式有误，请重新输入</string>
+    <string name="login_input_phone_format_error_please_reput_normal">您输入的号码格式有误，请重新输入</string>
+    <string name="login_input_phone_format_error">手机号码格式有误，请重新绑定</string>
+    <string name="common_continue">继续</string>
+    <string name="common_qr_code_decoding">解析二维码中</string>
+    <string name="index_smart_app_load_fail2">页面加载失败，重新加载试试吧~</string>
+    <string name="index_smart_app_load_retry">重新加载</string>
+    <!-- 公共部分内容 end-->
+
+    <!-- 公共提示内容 start-->
+    <string name="get_error">请求失败</string>
+    <string name="login_error">网络问题，登陆失败，请重试</string>
+    <string name="network_no_connection">当前网络不可用，请检查设置！</string>
+    <string name="network_stop_speedup">请先停止当前设备提速，再使用网速分配</string>
+    <string name="no_network_please_check_and_try_later">当前网络不可用，请检查后重试！</string>
+    <string name="im_group_info_getting">群聊数据正在获取中，请稍后！</string>
+    <string name="network_access_fail">网络请求失败</string>
+    <string name="network_access_timeout">请求超时</string>
+    <string name="network_data_error">数据格式错误</string>
+    <string name="get_data_error">数据获取失败</string>
+    <string name="network_error_and_retry">网络异常，请稍后重试！</string>
+    <string name="system_error_and_retry">系统异常，请稍后重试！</string>
+    <string name="get_fail">获取失败</string>
+    <string name="get_timeout">请求超时</string>
+    <string name="network_error">当前网络不可用，请检查设置！</string>
+    <string name="no_history_suggestion">没有更多历史反馈意见啦!</string>
+    <string name="processing">正在操作&#8230;</string>
+    <string name="network_fail_reload">您的网络不太顺畅哦，点击屏幕重新加载</string>
+    <string name="network_fail_reload_new">您的网络不太顺畅哦，点击屏幕重新加载</string>
+    <string name="common_load_url_fail">你访问的资源不见了</string>
+    <!-- 公共提示内容 end-->
+
+    <!--反馈与意见列表-->
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+    <string name="feedback">意见反馈</string>
+    <!-- 反馈与意见列表end-->
+
+    <!-- 欢迎页 start-->
+    <string name="welcome_page0">以前我们在这头，爸妈在电话的那头\n现在APP在手，全家都在这里头</string>
+    <string name="welcome_page1">以前我们奔波在外头，家中电器没人瞅\n现在APP在手，设备控制不用愁</string>
+    <string name="welcome_page2">以前账单都在不同系统，水费电费发不休\n现在APP在手，一点一按全部收</string>
+    <!-- 欢迎页 end-->
+
+    <!-- 登录页面   start -->
+    <string name="login_other_tel">其他手机号码登录</string>
+    <string name="login_tel">登录为 </string>
+    <string name="logining">正在登录&#8230;&#8230;&#8230;</string>
+    <string name="username_or_pwd_error">密码错误或账号不存在</string>
+    <string name="warn_enter_verification_pre">获取验证码</string>
+    <string name="warn_reget_verification_num">重发验证码</string>
+    <string name="warn_enter_verification_aft">%1$s秒可重发</string>
+    <string name="hint_phone_num_error">手机号码格式错误</string>
+    <string name="hint_verify_num_error">验证码错误</string>
+    <string name="hint_verify_code_send">验证码已发送</string>
+    <string name="verify_fail">验证失败</string>
+    <string name="verification_code_invalidate">验证码无效</string>
+    <string name="verification_code_send_fail">短信验证码发送失败</string>
+    <string name="confirm_pay">确认支付</string>
+    <string name="get_reword_by_intimacy_bean">攒亲密豆换壕礼</string>
+    <string name="welcome_new_family_hint">新家庭欢迎礼包</string>
+    <string name="no_member_yet">您的家庭还没有成员，快去添加家人吧~</string>
+    <string name="no_other_member">没有其他成员了！</string>
+    <string name="add_family_member">添加家人</string>
+    <string name="login_by_password">和通行证账号登录</string>
+    <string name="login_by_code">短信验证码登录</string>
+    <string name="input_code">请输入短信验证码</string>
+    <string name="input_password">请输入您的密码</string>
+    <string name="login">登录</string>
+    <string name="incorrect_password">账号或密码错误</string>
+    <string name="login_failed">登录失败</string>
+    <string name="password_hint">8-16位英文字母、数字、符号组合</string>
+    <string name="password_rule">请输入8-16位的英文字母、数字、符号组合</string>
+    <string name="password_less_than_8">密码长度不能小于8</string>
+    <string name="password_only_num">密码不能为纯数字</string>
+    <string name="password_only_abc">密码不能为纯字母</string>
+    <string name="change_he_pass_confirm">和通行证是中国移动推出的统一账号体系，密码设置将同时影响飞信、139邮箱、和彩云、和通讯录等业务</string>
+    <string name="if_he_pass_confirm">是否确认修改</string>
+    <string name="no_notice_next_time">下次不再提醒</string>
+    <string name="next">下一步</string>
+    <string name="he_pass_account">和通行证帐号</string>
+    <string name="password_set_and_change">密码设置</string>
+    <string name="sent_code_to">验证码已发送至</string>
+    <string name="login_by_code_first">您还没有设置密码，请使用验证码登录</string>
+    <string name="password_set_success">密码设置成功</string>
+    <!-- 登录页面   end -->
+
+    <!-- 首页   start -->
+    <string name="index_web_token_fail">身份认证失败！</string>
+    <string name="index_item_init_ing">还在拼命加载数据中，请稍后再试</string>
+    <string name="broadband_server">宽带业务</string>
+    <string name="customer_server">在线客服</string>
+    <!-- 首页   end -->
+    <!-- 家庭   start -->
+    <string name="family_rename_fail">修改家庭名称失败</string>
+    <string name="family_create_guide">快点加入家庭吧，\n体验免费高清视频通话，随时随地亲情畅聊\n共享家庭相册，记录幸福快乐时光。</string>
+    <string name="you_can">你可以</string>
+    <string name="family_build">建立家庭</string>
+    <string name="crate_family">创建家庭</string>
+    <string name="join_family">加入家庭</string>
+    <string name="give_name_family">给家起个名字吧</string>
+    <string name="start_family_life">开启美好家庭新生活</string>
+    <string name="input_create_familt_name">最多还能写%d个字</string>
+    <string name="input_admin_number">请输入家庭创建者手机号</string>
+    <string name="send_join_family_request">给Ta发送请求</string>
+    <string name="scan_for_join_family">扫码加入</string>
+    <string name="most_length_tip">最多还可写%d字</string>
+    <string name="phone_book_no_phone">非常对不起，获取不到该手机号，请手动编辑该号码！</string>
+    <string name="phone_book_no_data">非常对不起，无法获取联系人！</string>
+    <string name="phone_book_no_permission">无法获取联系人数据，请检查是否已经打开联系人权限。</string>
+    <string name="apply_join_success_tip">请求加入家庭信息已发送，等待管理员同意</string>
+    <string name="invite_join_success_tip">消息发送成功，等待对方确认</string>
+    <string name="say_hello">快来跟大家打个招呼吧!</string>
+    <string name="say_hello_toOne">快来打个招呼吧~</string>
+    <string name="notify_invite">邀请您加入家庭</string>
+    <string name="notify_remove">你已被移此家庭</string>
+    <string name="send_message">发个信息</string>
+    <string name="make_call">打个电话</string>
+
+    <string name="family_reward_tip">加入了家庭，恭喜您获得</string>
+    <string name="family_reward_tip2">找点空闲找点时间，常陪家人唠唠家常</string>
+    <string name="family_be_created_tip">恭喜您成功创建家庭</string>
+    <string name="family_admin_indication">您是管理员，快去邀更多请家人吧！</string>
+
+    <string name="family_member_title">我的家人</string>
+    <string name="family_member_account_balance">账户余额</string>
+    <string name="family_member_throughput_balance">流量余额</string>
+    <string name="family_empty">家庭不存在，请先创建或加入家庭！</string>
+    <string name="family_empty_tip">家庭里只有我，快去邀请我的家人吧！</string>
+    <string name="picture_empty_tip">我的家庭还没有照片，点击这里上传第一张照片共享给你的家人！</string>
+    <string name="account_balance">%s元</string>
+    <string name="throughput_balance">%sM</string>
+    <string name="me">我</string>
+    <string name="ss_pattern_update">发现%1$d条更新</string>
+    <string name="no_intimacy_bean">该家庭还没有亲密豆，我可以做以下事来获取亲密豆</string>
+    <string name="intimacy_bean">亲密豆</string>
+    <string name="task_intimacy_bean">亲密豆%d</string>
+    <string name="task_intimacy_rotated">亲密豆\n+%d</string>
+    <string name="task_intimacy_limited">不再获得奖励</string>
+    <string name="task_intivmacy_executed">点击领取</string>
+    <string name="task_executed">完成任务点击获取</string>
+
+    <string name="task_limited">不再获得奖励</string>
+
+    <string name="task_invite_new">邀请家人</string>
+    <string name="task_invite_repeat">继续邀请家人</string>
+    <string name="task_invite_limited">获取奖励到达上限，但仍可以继续邀请家人</string>
+
+    <string name="task_picture_new">上传家庭照片</string>
+    <string name="task_picture_repeat">继续上传家庭照片</string>
+    <string name="task_picture_limited">获取奖励达到上限，但仍可以继续上传家庭照片</string>
+
+    <string name="task_voip_new">语音通话</string>
+    <string name="task_voip_repeat">继续语音通话</string>
+    <string name="task_voip_limited">获取奖励达到上限，但仍可以继续与家人进行语音通话</string>
+
+    <string name="task_vedio_new">视频通话</string>
+    <string name="task_vedio_repeat">继续视频通话</string>
+    <string name="task_vedio_limited">获取奖励达到上限，但仍可以继续与家人进行视频通话</string>
+
+    <string name="family_group_chat_at_msg">[有人@你]</string>
+
+    <!-- 家庭   end -->
+    <!-- 掌厅   start -->
+    <string name="charge_flux_title">我的流量</string>
+    <string name="charge_flux_more">本月流量充足</string>
+    <string name="charge_flux_less">本月流量不足</string>
+    <string name="charge_flux_total">套餐总量 %s</string>
+    <string name="charge_flux_used">已使用 %s</string>
+    <string name="charge_flux_total_tip">套餐总量 </string>
+    <string name="charge_flux_used_tip">已使用 </string>
+
+    <string name="charge_flux_account">我的话费</string>
+    <string name="charge_flux_account_remain">账户余额</string>
+    <string name="charge_flux_account_unit">元</string>
+    <string name="charge_flux_account_bill">我的账单</string>
+    <string name="charge_flux_account_bill_no">您本月暂无消费哦!</string>
+    <string name="charge_flux_account_period">%s月</string>
+    <string name="charge_flux_account_period_total">合计%s元</string>
+    <string name="charge_flux_account_bill_footer" formatted="false">以上信息为移动用户%s截止至%s的查询结果，用户该账单为仅供参考的未出账单。</string>
+    <string name="charge_flux_account_bill_footer_month" formatted="false">计费周期：%s。</string>
+    <!-- 掌厅   end -->
+
+    <!-- 侧边栏  start-->
+    <string name="current_month_free_tell">本月剩余免费电话时长</string>
+    <string name="free_tell">免费电话时长</string>
+    <string name="my_phone_fare">我的话费</string>
+    <string name="phone_fare">话费余额</string>
+    <string name="my_phone_flow">我的流量</string>
+    <string name="phone_flow">剩余流量</string>
+    <string name="family_menber">成员管理</string>
+    <string name="my_family_nav">我的家庭</string>
+    <string name="member_manage_guiding">与家人共享欢乐生活</string>
+    <string name="chang_jing_lian_dong">场景联动</string>
+    <string name="chang_jing_lian_dong_guiding">让设备更智能更好玩</string>
+    <string name="setting">设置</string>
+    <string name="activity_center">我的流量券</string>
+    <string name="update">版本更新</string>
+    <string name="questionnaire">问卷调研</string>
+    <string name="no_new_app">当前已是最新版本</string>
+    <string name="has_new_app">发现新版本</string>
+    <string name="current_app_version">当前版本:V%s</string>
+    <string name="app_new_version">新版本V%s</string>
+    <string name="is_checking_version">正在检查程序版本...</string>
+    <string name="checking_version_fail">版本更新失败，请稍后再试</string>
+    <string name="about">关于我们</string>
+    <string name="exit_login">退出登录</string>
+    <string name="share_app">把和家亲告诉朋友</string>
+    <string name="share_app_title">推荐一款特别有用的APP</string>
+    <string name="share_app_description">"# 和家亲 #中国移动首款数字家庭APP，让家更美好，快来下载吧！"</string>
+    <string name="user_agreement">用户协议</string>
+    <string name="copy_right">中国移动  版本所有\nCopyright©2017 All Rights Reserved</string>
+    <string name="no_app_download_url">未查到APP下载地址，请重试！</string>
+    <string name="suggestion">意见反馈</string>
+    <string name="contact_us">联系我们</string>
+    <string name="no_user">暂无用户</string>
+    <string name="no_user_phoneNum">暂无电话</string>
+    <string name="family_score">积分: %s</string>
+    <string name="title_activity_upload_picture">UploadPictureActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- 侧边栏  end-->
+
+    <string name="family_code_img">扫一扫二维码，成为我的家人</string>
+    <string name="family_qr_code">家庭二维码</string>
+    <string name="no_family">暂无家庭</string>
+    <!-- 账号安全  start-->
+    <string name="account_security">账号安全</string>
+    <string name="change_phone_verify">手机修改验证</string>
+    <string name="send_message_phone_tip">我们将发送验证码短信到这个号码\n+86%s</string>
+    <string name="current_phone_number">当前手机号:%s</string>
+    <string name="please_input_verification_code">请输入验证码</string>
+    <string name="please_receive_verification_code">请查收短信验证码</string>
+    <string name="finish">完成</string>
+    <string name="modify_phone_suc">手机号码修改成功</string>
+    <string name="use_new_phone_load">修改成功请使用新号码重新登录</string>
+    <string name="new_phone_equal_old">您输入的手机号码与当前号码相同，请重新输入</string>
+    <string name="please_input_phone">请输入手机号</string>
+    <string name="format_error_phone">您输入的手机号码格式有误，请重新输入</string>
+
+
+    <!-- 账号安全  end-->
+    <!-- 邀请有礼  start-->
+    <string name="invite_present">邀请有礼</string>
+    <string name="invite_send">赢取精美礼包</string>
+    <string name="send_invitation">发送邀请</string>
+    <string name="invitation_tip">邀请亲友加入和家亲内测活动，\n将有机会获得精美礼包，赶快行动吧！</string>
+    <string name="invitation_success">已成功邀请%s加入内测，快去通知他吧</string>
+
+    <!-- 邀请有礼  end-->
+
+    <!-- 分享  start-->
+    <string name="please_wait">请稍等...</string>
+    <string name="share_success">分享成功啦</string>
+    <string name="share_fail">分享失败啦</string>
+    <string name="share_weixin">微信</string>
+    <string name="share_weixin_circle">朋友圈</string>
+    <string name="share_qzone">QQ空间</string>
+    <string name="share_qq">QQ</string>
+    <string name="share_sina">SINA</string>
+    <string name="no_app_weixin">微信应用未安装</string>
+    <string name="no_app_qq">QQ应用未安装</string>
+    <string name="no_app_sina">新浪微博应用未安装</string>
+    <string name="no_app">应用未安装</string>
+    <string name="not_support_share">应用暂不支持分享</string>
+
+    <!-- 首页  start-->
+
+    <string name="family_circle_member">家庭亲情网</string>
+    <string name="family_remainder_data">家庭剩余流量</string>
+    <string name="family_unify_payment">家庭统一支付</string>
+    <string name="family_member_noinfo">暂无信息</string>
+    <string name="member_task_I_cando">我可以做</string>
+    <string name="member_task_send_respects">给TA发一句问候</string>
+    <string name="member_task_show_pic">给他看新照片</string>
+    <string name="member_task_more">更多</string>
+    <string name="member_residual_calls">个人剩余话费</string>
+    <string name="member_Residual_data">个人剩余流量</string>
+    <string name="de_home">的家</string>
+    <!-- 首页  end-->
+
+    <!-- 智能网关  start -->
+    <string name="gateway_data_empty">没有获取到网关数据</string>
+    <string name="connecting_gateway">正在连接智能网关</string>
+    <string name="connecting_gateway_fail">连接智能网关失败</string>
+    <string name="current_download_speed">当前网速</string>
+    <string name="download_speed_tip">下行速度</string>
+    <string name="upload_speed_tip">上行速度:</string>
+    <string name="speed_unit_B">B/S</string>
+    <string name="speed_unit_KB">KB/S</string>
+    <string name="speed_unit_MB">MB/S</string>
+    <string name="speed_unit_GB">GB/S</string>
+    <string name="speed_unit_TB">TB/S</string>
+    <string name="one_key_speedup">一键加速</string>
+    <string name="one_key_download">一键下载</string>
+    <string name="bandwidth">端口网速</string>
+    <string name="more">更多</string>
+    <string name="device_total">设备列表(%s)</string>
+    <string name="connect_camera_total">已连接(%s)台设备</string>
+    <string name="a_moment">刚刚</string>
+    <string name="moment_ago">分钟之前</string>
+    <string name="moment_ago1">分钟前</string>
+    <string name="hour_ago">小时之前</string>
+    <string name="hour_ago1">小时前</string>
+    <string name="online">上线</string>
+    <string name="offline">下线</string>
+    <string name="device_unknown">未知设备</string>
+    <string name="setting_connect_type">连接类型</string>
+    <string name="setting_IP_address">IP地址</string>
+    <string name="setting_MAC_address">MAC地址</string>
+    <string name="online_remind">上线提醒</string>
+    <string name="intelligent_speed">网速分配</string>
+    <string name="add_to_black_list">加入黑名单</string>
+    <string name="speed_limit">限速设置</string>
+    <string name="get_gateway_list_failed">网关信息获取失败，点击屏幕重新加载</string>
+    <string name="get_device_list_failed">获取设备数据失败</string>
+    <string name="no_equipment">无设备接入</string>
+    <string name="you_have_a_new_speed_report">本周网络报告新鲜出炉，快来点击查看</string>
+    <!-- 智能网关  end -->
+
+    <!-- 离线设备 -->
+    <string name="device_list_history">离线设备</string>
+
+    <!--家庭相册start-->
+
+    <!-- 功能 -->
+    <string name="ability">功能</string>
+    <string name="system_ability">系统功能</string>
+    <string name="more_ability">更多功能</string>
+    <string name="unenable_ability_tip">非常抱歉！%s功能已停用，该图标将从功能列表中移除。</string>
+    <string name="gateway_offline_ability">网关离线，无法操作</string>
+    <string name="ensure_add_ability">是否确认添加%s功能？</string>
+    <string name="delete_ability">卸载</string>
+    <string name="enable_ability">启动</string>
+    <string name="unenable_ability">停止</string>
+    <string name="update_ability">升级</string>
+    <string name="restore_ability">恢复初始设置</string>
+    <string name="smart_net_manage">网速分配</string>
+
+
+    <!--家庭相册start-->
+    <string name="no_family_tip">您还没有家庭哦，快去添加家人或者加入家庭，一起分享美好瞬间吧</string>
+    <string name="album_caiyun">彩云相册</string>
+    <string name="album_continue_upload_on_4g">当前处于移动网络\n上传将消耗%1$s流量</string>
+    <string name="album_continue_upload_ads_tip">开通优惠流量服务&#160;</string>
+    <!--图片选择入口 -->
+    <string name="small_video">小视频</string>
+    <string name="from_mobile">从手机选择</string>
+    <string name="take_photo">拍照</string>
+    <string name="image_select_way">图片选择方式</string>
+    <!--多图选择器-->
+    <string name="folder_all">所有照片</string>
+    <string name="preview">预览</string>
+    <string name="msg_no_camera">没有系统相机</string>
+    <string name="msg_amount_limit">最多只能选择%1$d张图片哦~</string>
+    <string name="msg_file_broken_please_chose_other_file">文件损坏或大于10M，请选择其他图片</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="image_loader_error">"图片加载出错"</string>
+    <string name="beijing_image_loader_error">"背景墙图片加载出错"</string>
+    <!--图片上传、下载、删除、评论-->
+    <string name="chose_picture">选择图片</string>
+    <string name="chose_video">选择视频</string>
+    <string name="upload_picture">图片上传</string>
+    <string name="download_picture">"下载图片"</string>
+    <string name="downloading_picture"> 正在下载图片... </string>
+    <string name="save_picture_suc"> 已保存到系统相册</string>
+    <string name="save_picture_part_suc"> 部分图片保存失败</string>
+    <string name="save_picture_fail"> 保存失败，请重试</string>
+    <string name="uploading_picture">当前图片上传任务正在进行，请稍后！...</string>
+    <string name="delete_picture">删除此图片</string>
+    <string name="delete_comment">删除此评论</string>
+    <string name="deleting_picture">"正在删除图片..."</string>
+    <string name="result_del_photos_ok">删除成功</string>
+    <string name="check_upload_photos">查看上传图片</string>
+    <string name="download_fail_tip">下载失败,请稍后重试</string>
+    <string name="picture_have_delete">照片已删除</string>
+    <string name="pictures_have_delete">有%1$d张照片已被删除</string>
+    <string name="pictures_upload_fail">%1$d张照片未上传成功</string>
+    <string name="album_have_no_space">相册空间已满，请清理后重新上传</string>
+    <string name="upload_photos_succ">上传图片成功</string>
+    <string name="upload_photos_fail">上传图片失败</string>
+    <string name="upload_photos_again">重新上传</string>
+    <string name="get_photos_fail">获取照片失败</string>
+    <string name="chose_photos_upload">照片上传</string>
+    <string name="take_photos_upload">拍照上传</string>
+    <!--语音评论图片-->
+    <string name="press_to_speak">按住 说话</string>
+    <string name="leave_to_send">松开 发送</string>
+    <string name="move_to_up_to_cancel">手指上滑 取消发送</string>
+    <string name="leave_finger_to_cancel">松开手指 取消发送</string>
+    <string name="record_error_permission_problem">录音失败！ 请确认是否打开应用的录音权限</string>
+    <string name="record_time_too_short">录音时间太短</string>
+    <string name="radio_format_error">语音文件格式错误，目前支持mp3、amr格式</string>
+    <string name="radio_duration_falg">%s&#8243; </string>
+
+    <!-- dialog -->
+    <string name="dialog_title_default">操作确认</string>
+    <string name="dialog_msg_default">您确定进行此操作吗?</string>
+    <string name="zhuangwei_text">装维人员</string>
+    <string name="confirm_back">该操作会丢失您输入的内容，您确定进行此操作吗?</string>
+    <string name="back">返回</string>
+    <string name="save">保存</string>
+    <string name="save_setting">保存设置</string>
+    <string name="complete">完成</string>
+
+    <!--下拉刷新上拉加载控件-->
+    <string name="head">这里是HeadView</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放更新</string>
+    <string name="refreshing">努力加载...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉刷新</string>
+    <string name="release_to_load">释放更新</string>
+    <string name="loading">努力加载...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+    <string name="family_album">家庭相册</string>
+    <string name="family_voip">亲聊</string>
+    <string name="family_find">发现</string>
+    <!--家庭相册end-->
+
+    <!--家庭管理-->
+    <string name="scan_qr_code">扫描二维码</string>
+    <string name="scan_qr_code_error_data">数据错误</string>
+    <string name="message">消息</string>
+    <string name="msg_time_today">今天</string>
+    <string name="warn_delete_success">删除成功</string>
+    <string name="warn_exit_success">退出成功</string>
+    <string name="warn_dissolve_success">解散成功</string>
+    <string name="warn_family_no">您的家庭已经解散，赶快去重新创建或加入新家庭吧</string>
+    <string name="warn_family_dismiss">管理员已解散家庭</string>
+    <string name="member_manager">家庭成员</string>
+    <string name="confirm_exit_family">确认退出此家庭</string>
+    <string name="confirm_delete_member">确定删除此成员</string>
+    <string name="warn_family_creater_exit">您是管理员，若您退出家庭，整个家庭会解散，且无法找回所有内容，请谨慎操作</string>
+    <string name="warn_exit_family">您将退出此家庭，退出后不可见其他家庭成员</string>
+    <string name="warn_msg_send_success">消息发送成功，等待对方确认</string>
+    <string name="warn_select_one_number">有多个号码，请选择一个号码</string>
+    <string name="warn_enter_correct_phone_number">请输入正确格式的移动手机号码</string>
+    <string name="warn_phone_number_format_error">账号有误，请重新输入</string>
+    <string name="warn_member_has_in_family">该成员已在您的家庭</string>
+    <string name="warn_member_cont_invite_myself">不能邀请自己，请重新输入</string>
+    <string name="warn_apply_success">消息发送成功，等待对方确认，%1$d秒后可重新发送</string>
+    <string name="warn_net_work_error">网络问题，发送失败，请重试</string>
+    <string name="warn_net_error">网络问题，发送失败，请重试</string>
+    <string name="title_family_verify">家庭验证</string>
+    <string name="warn_invite_fail">邀请失败</string>
+    <string name="warn_wait_receive_invite">等待对方接收您的邀请</string>
+    <string name="warn_apply_join_family">Ta申请加入您的家庭</string>
+    <string name="warn_apply_join_family_sequent">同意后，Ta可见您的所有家庭成员</string>
+    <string name="warn_already_join_family">已加入您的家庭</string>
+    <string name="warn_join_other_family">对方已加入别的家庭，无法邀请</string>
+    <string name="warn_family_member_find_error">未找到此成员</string>
+    <string name="warn_invite_join_family">邀请您加入</string>
+    <string name="warn_invite_join_family_normalmember">您已有家庭，接受邀请将自动退出原家庭(%s)，请谨慎操作</string>
+    <string name="warn_invite_join_family_admin">您是家庭(%s)的管理员，若接受邀请，原家庭自动解散，且无法找回所有内容</string>
+    <string name="warn_look_up">查看</string>
+    <string name="warn_other_side_refuse_invite">对方已拒绝您的邀请</string>
+    <string name="warn_refuse_other_side_apply">您已拒绝对方的申请</string>
+    <string name="warn_apply_overdue">申请信息已过期</string>
+    <string name="warn_family_invite_error">消息数据错误</string>
+    <string name="warn_i">我</string>
+    <string name="warn_delete_member">删除后所有成员无法看到他的信息</string>
+    <string name="warn_member_be_remove">此用户被移出家庭</string>
+    <string name="warn_user_be_remove">您已被移出此家庭</string>
+    <string name="warn_member_exit_family">此用户已退出家庭</string>
+    <string name="warn_modify_success">修改成功</string>
+    <string name="warn_invalid_contact">您选择的联系人无效，请选择有效的联系人</string>
+    <string name="warn_enter_other_phone_number">请输入Ta的手机号</string>
+    <string name="warn_send_other_apply">邀请Ta加入家庭</string>
+    <string name="btn_refuse">拒绝</string>
+    <string name="btn_look_up">查看</string>
+    <string name="btn_receive">接受</string>
+    <string name="add_member">成员添加</string>
+    <string name="del_member">成员删除</string>
+    <string name="verify_family">家庭验证</string>
+    <string name="exit_family">退出家庭</string>
+    <string name="add_device">设备添加</string>
+    <string name="family_message_notification_tip">消息提醒</string>
+    <string name="apply_join_number">%d人申请加入</string>
+
+
+    <!--成员信息-->
+    <string name="member_phone">手机号码</string>
+    <string name="member_remark_name">备注名</string>
+    <string name="member_sex">性別</string>
+    <string name="member_sex_man">男</string>
+    <string name="member_sex_women">女</string>
+    <string name="empty">""</string>
+    <string name="member_relation_hi_is">Ta是你的</string>
+    <string name="member_birthday">生日</string>
+    <string name="member_phone_bill_remind">话费提醒</string>
+    <string name="member_flow_remind">流量提醒</string>
+    <string name="member_birthday_remind">生日提醒</string>
+    <string name="member_rename_input_length_tip">最多还可以输入%1$d字</string>
+
+    <!--成员信息-->
+
+    <string name="bind_tv_msg_nor">暂未绑定任何电视设备</string>
+    <string name="bind_tv_msg">我的电视</string>
+    <string name="tv_msg">电视</string>
+    <string name="warn_phone_number">手机号码</string>
+    <string name="call_tv_btn">呼叫</string>
+    <string name="bind_tv_subtitle">暂未发现设备，点击绑定</string>
+    <string name="unbind_tv_subtitle">设备已绑定</string>
+    <string name="unbind_tv_btn">立即解</string>
+
+
+
+
+    <!--家庭管理-->
+
+    <!-- IM消息 start -->
+    <string name="msg_message_search">搜索</string>
+    <string name="msg_contacts">联系人</string>
+    <string name="msg_group_msg">群聊</string>
+    <string name="msg_conversation_title">全部消息</string>
+    <string name="msg_notice_title">通知</string>
+    <string name="msg_collection_title">收藏</string>
+    <string name="msg_conversation_no_conversation">没有消息</string>
+    <string name="msg_send_message">发送消息</string>
+    <string name="msg_send_group_message">发群消息</string>
+    <string name="msg_create_conversation_group">创建群聊</string>
+    <string name="msg_create_conversation_one2one">新建消息</string>
+    <string name="msg_status_draft">[草稿]</string>
+    <string name="msg_time_am">上午</string>
+    <string name="msg_time_pm">下午</string>
+    <string name="msg_time_yestoday">昨天</string>
+    <string name="msg_voice_press_speak">按住说话</string>
+    <string name="msg_voice_release_cancel">松开取消</string>
+    <string name="msg_voice_release_send">松开发送</string>
+    <string name="msg_voice_file_error">录音失败，请重试</string>
+    <string name="msg_voice_create_file_error">创建语音消息文件失败，无法发送。您可能需要在系统设置中手动允许录音权限来解决。</string>
+    <string name="msg_voice_permission_error">创建语音消息文件失败，您可能需要在系统设置中手动允许录音权限来解决。</string>
+    <string name="msg_voice_record_duration_too_short">录音时间太短</string>
+    <string name="msg_voice_record_duration_too_long">录音时间太长</string>
+    <string name="msg_voice_cancel_send">放弃输入</string>
+    <string name="msg_voice_do_cancel_send_1">上滑放弃</string>
+    <string name="msg_voice_do_cancel_send_2">松开手指，取消发送</string>
+    <string name="msg_voice_time_remaining">还剩%1$d秒</string>
+    <string name="msg_composing">对方正在输入...</string>
+    <string name="msg_search_group_member">包含成员:</string>
+    <string name="msg_no_select">请至少选择一条消息</string>
+    <string name="msg_chatting_send">发送</string>
+    <string name="msg_chatting_photos">照片</string>
+    <string name="msg_chatting_camera">拍摄</string>
+    <string name="msg_chatting_file">文件</string>
+    <string name="msg_chatting_video">视频</string>
+    <string name="msg_chatting_phrasebook">常用语</string>
+    <string name="msg_chatting_phone">电话</string>
+    <string name="msg_chatting_location">位置</string>
+    <string name="msg_chatting_pay">缴费</string>
+    <string name="msg_chatting_annoucement">和家说说</string>
+    <string name="msg_chatting_timesend">定时发送</string>
+    <string name="msg_chatting_fire">阅后即焚</string>
+    <string name="msg_chatting_contacts">联系人</string>
+    <string name="msg_chatting_audio">语音</string>
+    <string name="msg_chatting_picture">图片</string>
+    <string name="msg_chatting_voice">视频聊天</string>
+    <string name="msg_chatting_delete">删除</string>
+    <string name="msg_chatting_resend">重新发送</string>
+    <string name="msg_chatting_browser_image">查看图片</string>
+    <string name="msg_chatting_preview_image">原图</string>
+    <string name="msg_file_broken_please_send_other_file">文件损坏或大于10M，发送失败</string>
+    <string name="msg_hint_memory_short">内存不足，无法显示</string>
+    <string name="msg_set_time">设置时间</string>
+    <string name="msg_chatting_time_send_too_short">当前时间已过，请点击取消重新设置时间或立即发送</string>
+    <string name="msg_time_send_msg_fail">定时消息发送失败</string>
+    <string name="msg_setting_send_time_notice">设定时间至少大于5分钟</string>
+    <string name="msg_select_pics_preview">预览</string>
+    <string name="msg_select_pics_all">所有图片</string>
+    <string name="msg_select_pics_choose_directory">目录选择</string>
+    <string name="msg_select_at_least_1_pic">请至少选择一张图片发送</string>
+    <string name="msg_select_at_most_pic">您最多只能选择%1$d张照片</string>
+    <string name="msg_select_pic">请先选择图片</string>
+    <string name="msg_select_pics_preview_multi">预览(%1$d)</string>
+    <string name="msg_select_pics_send_multi">发送(%1$d&#047;%2$d)</string>
+    <string name="msg_select_pics_finish_multi">完成(%1$d&#047;%2$d)</string>
+    <string name="msg_video_too_short">提示太短需要删除</string>
+    <string name="msg_video_record_success">录制完成</string>
+    <string name="msg_video_record_fail">录制失败</string>
+    <string name="msg_up_to_giveup">上滑放弃</string>
+    <string name="msg_loose_to_giveup">松开，放弃拍摄</string>
+    <string name="msg_press_to_takevideo">按住拍摄</string>
+    <string name="msg_too_short_for_lasttakevideo">距离上一次拍摄太短了</string>
+    <string name="msg_pic_total_count">共%1$s张</string>
+    <string name="msg_pic_all_count">(%1$s张)</string>
+    <string name="msg_file_size">%1$.2fkb</string>
+    <string name="msg_contact_cannot_add">不能添加相同的联系人</string>
+    <string name="msg_contact_count">%1$s个人</string>
+    <string name="msg_message_receiver">收件人：%1$s</string>
+    <string name="msg_message_receiver_hint">收件人</string>
+    <string name="msg_mass_receiver">群发（%1$s人）</string>
+    <string name="msg_message_menu_mark_top">置顶</string>
+    <string name="msg_menu_mark_read">标记已读</string>
+    <string name="msg_short_message"> </string>
+    <string name="msg_menu_mark_delete">删除</string>
+    <string name="msg_menu_mark_collect">收藏</string>
+    <string name="msg_menu_mark_cancle_collect">取消收藏</string>
+    <string name="msg_menu_mark_foword">转发</string>
+    <string name="msg_menu_mark_copy">复制</string>
+    <string name="msg_menu_mark_more">更多</string>
+    <string name="msg_message_mark_select_all">全选</string>
+    <string name="msg_message_mark_clear_all">清除</string>
+    <string name="msg_message_mark_clear_top">消顶</string>
+    <string name="msg_default_sms_app_info">您需要设置默认短信应用才能使用删除或设置已读功能</string>
+    <string name="msg_interrupt_success">暂停成功</string>
+    <string name="msg_interrupt_fail">暂停失败</string>
+    <string name="msg_send_fail">信息发送失败,重新发送消息？</string>
+    <string name="msg_chat_setting">聊天信息</string>
+    <string name="msg_dialog_detail_not_set">未设置</string>
+    <string name="msg_dialog_detail_set_top">置顶聊天</string>
+    <string name="msg_do_not_disturb">消息免打扰</string>
+    <string name="msg_dialog_detail_view_friends">查看友圈</string>
+    <string name="msg_search_chat_msg">查找聊天记录</string>
+    <string name="msg_chat_msg">聊天记录</string>
+    <string name="msg_dialog_detail_clear_chat_records">清空消息</string>
+    <string name="msg_edit_hint_no_network">短信&#047;彩信</string>
+    <string name="msg_collect_msg_details">详情</string>
+    <string name="msg_from_burn_after_msg">来自%1$s的阅后即焚消息</string>
+    <string name="msg_burn_after_read_msg">返回后消息消失</string>
+    <string name="msg_read_once">消息仅可查看一次</string>
+    <string name="msg_click_to_view_msg">点击查看一次</string>
+    <string name="msg_send_time">将于%1$s发送</string>
+    <string name="msg_collect_msg_from_info">%1$s 收藏自%2$s</string>
+    <string name="msg_collect_msg_time_info">收藏于 %1$s</string>
+    <string name="msg_session_video">[视频]</string>
+    <string name="msg_session_audio">[语音]</string>
+    <string name="msg_session_picture">[图片]</string>
+    <string name="msg_session_location">[位置]</string>
+    <string name="msg_session_burn_after">[阅后即焚消息]</string>
+    <string name="msg_session_contact">%1$s向您推荐了%2$s</string>
+    <string name="msg_session_contact_1">[名片]</string>
+    <string name="msg_session_vcard">[文件]</string>
+    <string name="msg_draft">[草稿]</string>
+    <string name="msg_phone">[手机]</string>
+    <string name="msg_rich_text">您收到一条新消息</string>
+    <string name="msg_check_network_settings">当前网络不可用，请检查你的网络设置。</string>
+    <string name="msg_clear_chat_log_hint">是否清空当前会话记录？</string>
+    <string name="msg_hint_set_succeed">设置成功</string>
+    <string name="msg_hint_set_network_failed">您已离线，设置失败</string>
+    <string name="msg_hint_set_unknown_failed">未知错误，设置失败</string>
+    <string name="msg_groupchat_dlg_loading_title">请稍等</string>
+    <string name="msg_groupchat_dlg_loading_content">正在加载数据，请稍候</string>
+    <string name="msg_groupchat_creat_succeed">创建群聊成功</string>
+    <string name="msg_group_creat_succeed">您创建了群聊</string>
+    <string name="msg_group_creat">%1$s创建了群聊</string>
+    <string name="msg_group_creating">正在创建群聊</string>
+    <string name="msg_groupchat_creat_failed">群聊创建失败</string>
+    <string name="msg_unread_notification">通知消息</string>
+    <string name="msg_page_notification">通知</string>
+    <string name="msg_page_publicaccount">公众号</string>
+    <string name="msg_page_batchoperation">批量操作</string>
+    <string name="msg_collect_success">收藏成功</string>
+    <string name="msg_collect_fail">收藏失败</string>
+    <string name="msg_part_msg_collect_fail">部分消息收藏失败</string>
+    <string name="msg_confirm_forward">确认发送给：%1$s</string>
+    <string name="msg_connot_forward_msg_notice1">选中消息中语音/阅后即焚消息不能转发</string>
+    <string name="msg_connot_forward_msg_notice2">未下载的图片/视频消息不能转发</string>
+    <string name="msg_connot_forward_msg_notice3">语音、图文混排消息不能转发</string>
+    <string name="msg_connot_collect_msg_notice1">选中消息中阅后即焚消息不能收藏</string>
+    <string name="msg_connot_collect_msg_notice2">未下载的图片/视频消息不能收藏</string>
+    <string name="msg_burn_msg_type_choose">发送图片视频</string>
+    <string name="msg_burn_msg_type_camera">拍摄照片</string>
+    <string name="msg_burn_msg_type_video">拍摄视频</string>
+    <string name="msg_pic_deleted_notices">原文件已经不存在</string>
+    <string name="msg_delete_conversations_confirm">该群聊未保存到通讯录，删除后将无法在通讯录找到，确定删除？</string>
+    <string name="msg_add_blacklist_confirm">确定将所选消息联系人加入黑名单？</string>
+    <string name="msg_enter_publicaccount_message">进入查看最新内容</string>
+    <string name="msg_network_cannot_connect">网络无法连接</string>
+    <string name="msg_network_not_connect_reason">您的设备未启用移动网络或无线局域网</string>
+    <string name="msg_network_connection_failed">
+        如需要连接到互联网，请参考以下几点：\n检查手机中的无线局域网设置，查看是否有可接入的无线局域网信号。\n检查手机是否已接入移动网络，并且手机没有被停机。\n如果您已接入无线局域网：\n请检查您所连接的无线局域网热点是否已接入互联网，或该热点是否已允许您的设备访问互联网。
+    </string>
+    <string name="msg_shut_video">关闭</string>
+    <string name="msg_load_fail_notice">加载失败，轻触屏幕重新加载</string>
+    <string name="msg_image_load_fail">图片加载错误</string>
+    <string name="msg_session_operation_cancel">取消操作</string>
+    <string name="msg_session_operation_ing">正在进行批量处理</string>
+    <string name="msg_session_operation_ing_toast">请等待操作完成返回或取消操作</string>
+    <string name="msg_group_invitation">系统通知</string>
+    <string name="msg_agree_group_invitation">已同意</string>
+    <string name="msg_refuse_group_invitation">已拒绝</string>
+    <string name="msg_fail_group_invitation">加入失败</string>
+    <string name="msg_group_invitation_words">邀请您加入群聊</string>
+    <string name="msg_group_invitation_notify">%1$s 邀请你 加入[%2$s]群</string>
+    <string name="msg_public_account_invitation_notify">%1$s 公众号有最新消息</string>
+    <string name="msg_join_group_fail_not_exist">该群已被解散</string>
+    <string name="msg_join_group_fail_is_full">群人数已经达到上限</string>
+    <string name="msg_join_group_fail">操作失败</string>
+    <string name="msg_delete_sms_msg_notices">系统短信不能删除</string>
+    <string name="msg_message_count">99+</string>
+    <string name="msg_group_member_count">全部群成员（%1$s）</string>
+    <string name="msg_sending_progress">发送中 %1$s%%</string>
+    <string name="msg_downloading_progress">下载中 %1$s%%</string>
+    <string name="msg_confirm_send_contact">确认把 %1$s 的名片发送到当前聊天？</string>
+    <string name="msg_chose_image_size">原图(%1$.1fM)</string>
+    <string name="msg_chose_image_size_kb">原图(%1$dK)</string>
+    <!-- Following string is a group, prefix will be used for searching and replacement. -->
+    <string name="msg_update_photo_2_family">我上传了%1$d张图片，大家快来看看</string>
+    <string name="msg_update_photo_2_family_prefix">我上传了</string>
+
+    <!-- Search empty results -->
+    <string name="msg_search_empty">无匹配结果</string>
+    <string name="msg_search_match_text">条相关聊天记录</string>
+    <string name="imsg_btn_subject_confirm">确定</string>
+    <string name="msg_btn_subject_cancel">取消</string>
+    <string name="msg_toast_can_not_select_exist_contact">你选择的联系人已经在本聊天会话中</string>
+    <string name="msg_toast_can_use_empty_subject">不能使用空的主题</string>
+    <string name="msg_dialog_title_create_group_progress">群聊创建中...</string>
+    <string name="msg_toast_exception_group_chat_init_success">群聊建立成功</string>
+    <string name="msg_toast_exception_group_chat_init_fail">群聊建立失败(%1$s)</string>
+    <string name="msg_toast_no_contact_is_selected">请选择联系人后点击确定</string>
+    <string name="msg_format_group_member_count">(%1$s人)</string>
+    <string name="msg_activity_message_default_title">消息</string>
+    <string name="msg_notification_title_im">新消息</string>
+    <string name="msg_notification_title_im_unread">新消息(未读%1$s条)</string>
+    <string name="msg_notification_title_group_im_unread">群消息(未读%1$s条)</string>
+    <string name="msg_notification_title_im_notify_several_unread">%1$s个联系人共发来%2$s条新消息</string>
+    <string name="msg_a_new_msg_notify">[新消息通知]</string>
+    <string name="msg_btn_quit_group">退出群聊</string>
+    <string name="msg_disband_group">解散群聊</string>
+    <string name="msg_quit_group_confirm">是否确认退出该群？</string>
+    <string name="msg_disband_group_confirm">是否确认解散该群？</string>
+    <string name="msg_dialog_title_quit_group_progress">退出群聊中...</string>
+    <string name="msg_toast_quit_group_success">退出群聊成功</string>
+    <string name="msg_toast_quit_group_failed">退出群聊失败，请重试</string>
+    <string name="msg_toast_clear_msg_ok">清空聊天信息成功</string>
+    <string name="msg_toast_disband_group_failed">解散群聊失败，请重试</string>
+    <string name="msg_modify_group_notices">只有群主 %1$s 才能修改群名。</string>
+    <string name="msg_hint_group_is_quited">你已经退出了群聊</string>
+    <string name="msg_format_group_member_quit_hint">退出了群聊</string>
+    <string name="msg_group_set_group_name">设置群名称</string>
+    <string name="msg_set_value_toast">请输入设置名称</string>
+    <string name="msg_hint_max_input_length">最多可以输入%1$s个字</string>
+    <string name="msg_max_input_length">文字超出限制</string>
+    <string name="msg_group_my_alias">我的群昵称</string>
+    <string name="msg_group_show_alias">显示群昵称</string>
+    <string name="msg_default_group_name">群聊</string>
+    <string name="msg_default_group_name_postfix"></string>
+    <string name="msg_group_subject">(%1$s)</string>
+    <string name="msg_add_contacts_to_group_fail">添加群成员失败</string>
+    <string name="msg_create_group_fail_notice">请至少选择2个群成员</string>
+    <string name="msg_create_group_fail_notice1">请至少选择1个非重复群成员</string>
+    <string name="msg_input_content">请输入发布内容！</string>
+    <string name="msg_why_no_sms_conversations">为什么短消息页面是空的？</string>
+    <string name="msg_open_camera_fail">打开相机失败</string>
+
+    <string name="msg_dialog_msg_default">您确定进行此操作吗?</string>
+
+    <string name="msg_notice_not_show">不再显示此提示</string>
+    <string name="msg_copy_to_clipboard">复制到剪贴板</string>
+    <string name="msg_i_already_known">我知道了</string>
+    <string name="msg_pic_full_size">原图</string>
+    <string name="msg_draft_album">相册</string>
+    <string name="msg_group_me">我</string>
+    <string name="msg_unknown_number_toast">未知电话号码</string>
+    <string name="msg_dialog_title_default">操作确认</string>
+    <string name="msg_hint_logouting">正在退出当前账户</string>
+    <string name="msg_common_back">返回</string>
+
+    <string name="msg_map_select_pos_title">位置信息</string>
+    <string name="msg_map_control_send">发送</string>
+    <string name="msg_map_posotion_nearby">附近</string>
+    <string name="msg_map_position_error_code">错误号：%1$d</string>
+    <string name="msg_map_position_overlay1">覆盖物1</string>
+    <string name="msg_map_position_requesting">获取中...</string>
+    <string name="msg_requesting_address">正在获取地址，暂时无法发送。</string>
+
+    <string name="msg_set_alias_name_notices">可以设置你在这群里的昵称，该昵称仅在此群显示</string>
+    <string name="msg_set_alias_name_in_group">我在本群的昵称</string>
+    <string name="msg_set_group_name_notices">只有群主可修改群聊名称</string>
+    <string name="msg_set_group_name">群聊名称</string>
+    <string name="msg_camera_roll">相机胶卷</string>
+    <string name="msg_selected_image_preview">预览</string>
+    <string name="msg_send_selected_image">发送</string>
+    <string name="msg_mail_write_attachment_photo_txt">选择图片</string>
+    <string name="msg_common_select">选择</string>
+    <string name="msg_search_contact">搜索</string>
+    <string name="msg_pull_up_load_more">上拉刷新</string>
+    <string name="msg_pull_down_load_more">下拉刷新</string>
+    <string name="msg_release_to_load">释放更新</string>
+    <string name="msg_common_loading">加载中...</string>
+    <string name="msg_add_black">加入黑名单</string>
+
+    <string name="msg_burn_after_read_message">阅后即焚消息</string>
+    <string name="msg_group_info_join">%1$s加入群聊</string>
+    <string name="msg_group_info_subject">群名称修改为：%1$s</string>
+    <string name="msg_group_info_remark">群备注名称修改为：%1$s</string>
+    <string name="msg_group_info_chairman">群主修改为：%1$s</string>
+    <string name="msg_group_info_tick">%1$s 被踢出群聊</string>
+    <string name="msg_group_info_self_tick">您已被群主移出群聊</string>
+    <string name="msg_group_info_tick_fail">踢出群失败</string>
+    <string name="msg_group_info_quit">%1$s 退出群聊</string>
+    <string name="msg_group_info_disband">群已解散</string>
+    <string name="msg_owner_group_info_disband">(%1$s)群被解散</string>
+    <string name="msg_group_info_policy_0">接收新消息并提示</string>
+    <string name="msg_group_info_policy_1">接收新消息但不提示</string>
+    <string name="msg_group_info_policy_2">屏蔽消息</string>
+    <string name="msg_group_info_create">群聊已 创建</string>
+    <string name="msg_create_not_active">群聊创建 未激活</string>
+    <string name="msg_delete_group_member">移除群成员</string>
+    <string name="msg_group_member">群成员</string>
+    <string name="msg_conv_group_item_name">群聊消息</string>
+    <string name="msg_confirm_delete_group_member">确定移除群成员 %1$s？</string>
+    <string name="msg_confirm_disband_group">移除后全部群成员仅可查看该群的聊天记录，确定移出？</string>
+    <string name="msg_contact_group_add">添加</string>
+    <string name="msg_download_fail">下载失败</string>
+
+    <string name="msg_notify_voice">声音</string>
+    <string name="msg_notify_vibrate">震动</string>
+    <string name="msg_notify">新消息通知</string>
+    <string name="msg_notify_main_sw">接收新消息通知</string>
+    <string name="msg_notify_main_sw_on">已开启</string>
+    <string name="msg_notify_main_sw_off">已关闭</string>
+    <string name="msg_notify_title">消息推送</string>
+
+    <string name="msg_sys_title">消息</string>
+    <string name="msg_sys_tab_dev">设备</string>
+    <string name="msg_sys_tab_sys">系统</string>
+    <string name="msg_sys_family">家庭群组</string>
+    <string name="msg_sys_birth">生日消息</string>
+    <string name="msg_sys_photo">照片消息</string>
+    <string name="msg_sys_imtimacy">亲密度</string>
+    <string name="msg_sys_fee">话费流量</string>
+    <string name="msg_sys_notice">系统通知</string>
+    <string name="msg_sys_notice_msg">系统消息</string>
+    <string name="msg_sys_dev">设备消息</string>
+    <string name="msg_sys_family_confirm">@string/verify_family</string>
+    <string name="msg_sys_gateway">网关消息</string>
+    <string name="msg_sys_there_is_no_msg">休息一会儿，暂无消息提醒~</string>
+
+    <string name="msg_sys_enter_content">点击查看</string>
+    <string name="msg_sys_del_suc">删除成功</string>
+    <string name="msg_locate_failed_indication">地图定位失败，请检查权限或定位相关服务是否打开。</string>
+    <string name="msg_locate_failed_indication_inwifi">wifi列表获取失败，请检查权限或定位相关服务是否打开。</string>
+    <string name="msg_locate_search_failed">搜索失败</string>
+    <string name="msg_sys_dev_no_new">暂无消息提醒</string>
+    <string name="msg_group_no_new">快来跟大家打个招呼吧</string>
+    <string name="msg_family_confirm_no_new">快点击查看有没有新成员加入哦</string>
+    <string name="msg_at_member_selection_title">选择提醒的人</string>
+    <string name="msg_at_msg_flag">&#160;</string>
+    <string name="msg_at_msg_flag_space">&#32;</string>
+    <!-- IM消息 end -->
+
+    <!-- 网络消息 start -->
+    <string name="restore_fail_no_connect">未连接网关</string>
+    <!-- 网络消息 end -->
+
+    <!-- 设备模块 start -->
+
+    <!-- liusuyun  网关设置  start -->
+    <string name="gateway_setting">网关设置</string>
+    <string name="modify_admin_pwd">更改管理员密码</string>
+    <string name="unbind_gateway">解除绑定</string>
+    <string name="restart_gateway">重启网关</string>
+    <string name="reset_gateway">恢复出厂设置</string>
+    <string name="gateway_restart">重启网关</string>
+    <string name="gateway_detail">网关详情</string>
+    <string name="modify_gateway_name">网关名称</string>
+    <string name="internet_info">外网信息</string>
+    <string name="gateway_help">使用帮助</string>
+    <string name="gateway_update_version">版本更新</string>
+    <string name="my_tv_new">new</string>
+    <string name="gateway_new_version">新版本</string>
+    <string name="gateway_lianxizhuangwei">联系装维人员</string>
+    <string name="gateway_bindzhuangwei">绑定号码</string>
+    <string name="gateway_help_content_title">网关失联的可能原因和建议：</string>
+    <string name="gateway_help_content_1">1. 手机网络不好</string>
+    <string name="gateway_help_content_1_sub">请检查手机设置，确保可以正常连接外网</string>
+    <string name="gateway_help_content_2">2. 网关未接上电源或网线没有插好</string>
+    <string name="gateway_help_content_22">2. 网关未接上电源或网线没有插好</string>
+    <string name="gateway_help_content_2_sub">建议检查电源是否插上，网线是否连接正常，确保网关正常启用</string>
+    <string name="gateway_help_content_3">3. 网关无法连接外网</string>
+    <string name="gateway_help_content_3_sub">请检查宽带账号密码是否设置正确，宽带是否已停用或欠费，确保宽带服务正常</string>
+    <string name="gateway_help_content_4">4. 长时间高速下载等因素导致网关系统繁忙，无法及时响应相关请求</string>
+    <string name="gateway_help_content_4_sub">建议重启网关后再做尝试</string>
+    <string name="gateway_help_content_5">5. 下载或上传带宽被占满，导致一些请求无法正常下发或返回</string>
+    <string name="gateway_help_content_5_sub">建议通过网速分配，限制一些设备的带宽占用</string>
+    <string name="gateway_help_content_6">6. 网关组件正在升级</string>
+    <string name="gateway_help_content_6_sub">升级过程中，APP无法与网关建立连接，建议等待约5分钟</string>
+    <string name="unbind_gateway_confirm">解除绑定该网关后将无法访问该网关，是否继续解除绑定？</string>
+    <string name="unbinding_gateway">解除绑定中</string>
+    <string name="unbind_gateway_failed">解绑失败</string>
+    <string name="unbind_gateway_failed_no_network">网络异常，操作失败</string>
+    <string name="confirm_restart_gateway">确定重启</string>
+    <string name="restarting_gateway">重启中</string>
+    <string name="restart_gateway_failed">重启失败</string>
+    <string name="gateway_resetting">您的网关正在重启，请等待</string>
+    <string name="verify_admin_pwn">验证管理员密码</string>
+    <string name="verify_admin_pwd_tip">恢复出厂设置后，智能网关将清空\n所有设置回到初始状态</string>
+    <string name="verify_admin_pwd_hint">请输入管理密码</string>
+    <string name="resetting_gateway">正在恢复出厂设置</string>
+    <string name="reset_gateway_failed">恢复出厂设置失败</string>
+    <string name="no_gateway_connected_reset_failed">未连接网关，无法恢复出厂设置</string>
+    <string name="renaming_gateway">修改中</string>
+    <string name="rename_gateway_failed">修改网关名称失败</string>
+    <string name="http_error_firmware_updating_now">网关正在升级中，手机客户端无法进行参数修改</string>
+    <string name="popup_window_edit_text_invalid">不能为空，且只支持数字、英文、特殊字符</string>
+    <string name="broadband_username">宽带账号</string>
+    <string name="broadband_password">宽带密码</string>
+    <string name="gateway_nick_name_limit_length">网关名称最多16个字符</string>
+    <!-- liusuyun  网关设置  end -->
+
+    <!-- liusuyun  插件商城  start -->
+    <string name="in_developing">程序员努力搬砖中</string>
+    <string name="load_more">加载更多</string>
+    <string name="add">添加</string>
+    <string name="operation_error">操作失败</string>
+    <string name="operation_success">操作成功</string>
+    <string name="plugin_status_off">插件已停用</string>
+    <string name="plugin_update_success">更新成功</string>
+    <string name="plugin_uninstall_success">卸载成功</string>
+    <string name="plugin_install_success">安装成功</string>
+    <string name="plugin_start_success">启用成功</string>
+    <string name="plugin_stop_success">停用成功</string>
+    <string name="plugin_off">插件停用，无法操作</string>
+    <string name="plugin_restore_success">恢复初始设置成功</string>
+    <string name="should_pay">应付金额:</string>
+    <string name="pay_type">支付方式</string>
+    <string name="mobile_phone_pay">移动话费支付</string>
+    <string name="pay_from_mobile">所有资费将从您的话费中扣除，请保证余额充足</string>
+    <string name="pay_mobile">付款手机：</string>
+    <string name="verification_code">验证码：</string>
+    <!-- liusuyun  插件商城  end -->
+    <!-- 一键体检相关 start -->
+    <string name="plugin_name_healt_mode">绿色上网</string>
+    <string name="waiting_for_one_key_checkup_tip">等待检测性能&#8230;</string>
+    <string name="one_key_checkup_action_start">开始体检</string>
+    <string name="one_key_checkup_action_cancel">取消体检</string>
+    <string name="one_key_checkup_action_restart">重新体检</string>
+    <string name="one_key_checkup_action_again">再次体检</string>
+    <string name="one_key_checkup">一键体检</string>
+    <string name="gateway_speed_upload_label">上行速度：%1$s</string>
+    <string name="gateway_speed_download_label">下行速度：%1$s</string>
+    <string name="checkup_progress_hint">正在检测%1$s&#8230;</string>
+    <string name="cpu_usage_label">CPU占用%1$s%%</string>
+    <string name="memory_usage_label">内存占用%1$s%%</string>
+    <string name="number_of_optimizable_items">项可优化</string>
+    <string name="optimize_finished">优化完成</string>
+    <string name="optimize">优化</string>
+    <string name="waiting_optimize">等待优化</string>
+    <string name="reoptimize">重新优化</string>
+    <string name="optimize_item_status_optimized">已优化</string>
+    <string name="optimize_item_status_optimizing">优化中</string>
+    <string name="optimize_action_start">全部优化</string>
+    <string name="optimize_action_cancel">取消优化</string>
+    <string name="optimize_action_continue">继续优化</string>
+    <string name="alter_wifi_security_confirm_tip">wifi安全性不高，请打开加密开关，并保证密码包含数字与大小写字母</string>
+    <string name="start_checkup_failed">启动一键体检失败</string>
+    <string name="item_checkup_failed_postfix">检测失败</string>
+    <string name="one_key_checkup_no_error">全部正常</string>
+    <string name="checkup_failed_on_no_network">网络中断，检测失败</string>
+    <!-- 一键体检相关 end -->
+    <!-- liusuyun  wifi setting start -->
+    <string name="wifi_security_setting">WiFi安全设置</string>
+    <string name="wifi_setting">Wi-Fi设置</string>
+    <string name="signal_strength">信号强度</string>
+    <string name="security_setting">名称密码</string>
+    <string name="name_pwd">名称密码</string>
+    <string name="guest_wifi">访客WiFi</string>
+    <string name="wifi_24g">2.4G WiFi</string>
+    <string name="wifi_5g">5G WiFi</string>
+    <string name="guest_wifi_safe_setting">访客WiFi安全设置</string>
+    <string name="wifi_speed_limit">wifi限速</string>
+    <string name="custom_speed_limit">自定义限速</string>
+    <string name="hint_zero_speed_limit">0 MB/s 为不限速</string>
+    <string name="speed_unit_MB_s">MB/s</string>
+    <string name="modifying">&#160;&#160;&#160;修改中&#160;&#160;&#160;</string>
+    <string name="not_open">未开启</string>
+    <string name="name_and_pwd">名称/密码</string>
+    <string name="encryption_type_simple">密码 | 加密方式</string>
+    <string name="tip_rebootwifi">该操作将重启wifi并导致所有设备失去连接，是否确认修改？</string>
+
+    <string name="up_gateway_num">一个账户最多可以绑定3个网关</string>
+    <string name="gateway_not_exist_family">网关不在家庭</string>
+
+    <string name="wifi_name">名称</string>
+    <string name="wifi_pwd">密码</string>
+    <string name="wifi_strong_encryption">强加密(WPA2)</string>
+    <string name="wifi_hybid_encryption">加密</string>
+    <string name="wifi_no_encryption">无加密(允许所有人连接)</string>
+    <string name="router_wifi_strong_encryption">强加密(WPA2)</string>
+    <string name="router_wifi_hybid_encryption">混合加密（WPA/WPA2）</string>
+    <string name="router_wifi_no_encryption">无加密</string>
+    <string name="hide_net">隐藏网络不被发现</string>
+    <string name="title_signal_strength_set">信号强度设置</string>
+    <string name="high_signal">穿墙</string>
+    <string name="middle_signal">标准</string>
+    <string name="low_signal">节能</string>
+    <string name="no_modify">您未做任何修改</string>
+    <string name="wifi_pwd_8_16chars">WiFi密码必须8到16个字符</string>
+    <string name="wifi_ssid_16_chars">WiFi名称必须少于16位</string>
+    <string name="wifi_pwd_not_empty">WiFi密码不能为空</string>
+    <string name="wifi_ssid_not_empty">WiFi名称不能为空</string>
+    <string name="wifi_not_contains_chinese">WiFi名称不能包含中文</string>
+    <string name="wifi_speed_not_empty">网速不能为空</string>
+    <string name="wifi_name_no_special_chars">WiFi名称不支持特殊字符</string>
+    <string name="modify_success">修改成功</string>
+    <string name="modify_error">修改失败</string>
+    <string name="wifi_modify_success">WIFI修改成功</string>
+    <string name="wifi_modify_error">WIFI修改失败</string>
+    <string name="security_setting_success">安全设置修改成功</string>
+    <string name="security_setting_error">安全设置修改失败</string>
+    <string name="signal_setting_success">信号强度修改成功</string>
+    <string name="signal_setting_error">信号强度修改失败</string>
+    <string name="hint_input_name">请输入名称</string>
+    <string name="hint_input_pwd">请输入密码</string>
+    <string name="encryption_need_password">必须加密开关打开，且密码为8-16位，包含数字与大小写字母</string>
+    <string name="wifi_data_progress">WiFi列表正在请求中&#8230;</string>
+    <string name="wifi_24g_hint">穿墙能力强，传播能力远</string>
+    <string name="wifi_5g_hint">网速更快，网络更稳定</string>
+    <!-- liusuyun  wifi setting end -->
+    <!-- 访客wifi相关 start -->
+    <string name="guestwifi_device_total">设备列表</string>
+    <string name="guestwifi_hidden">隐藏访客WiFi</string>
+    <string name="guestwifi_show">打开访客WiFi</string>
+    <string name="guestwifi_limit">限速%dMB/s</string>
+    <string name="guestwifi_device_empty">暂无设备接入</string>
+    <!-- 访客wifi相关 end -->
+    <!-- 绑定网关相关 start -->
+    <string name="connect_gateway_current_account">当前账户: %1$s</string>
+    <string name="connect_gateway_instruction">请连接到智能网关的Wi-Fi</string>
+    <string name="connect_gateway_input_username_tip">网关登录用户账号</string>
+    <string name="connect_gateway_input_password_tip">登录用户密码</string>
+    <string name="connect_gateway_wrong_username">登录账号或密码错误</string>
+    <string name="connect_gateway_wrong_password">登录账号或密码错误</string>
+    <string name="connect_gateway_connect">连接网关</string>
+    <string name="connect_gateway_in_progress">正在绑定网关，请稍候</string>
+    <string name="connect_gateway_failed">连接网关失败</string>
+    <string name="can_not_find_available_gateway">未搜索到可绑定网关</string>
+    <string name="bind_gateway_current_account">当前账户：%1$s</string>
+    <string name="bind_gateway_current_connected_gateway">已连接智能网关：%1$s</string>
+    <string name="bind_gateway_bind">绑定</string>
+    <string name="bind_gateway_in_progress">正在绑定网关，请稍候</string>
+    <string name="bind_gateway_binding_failed">绑定网关失败</string>
+    <string name="bind_gateway_already_bound">您当前连接的网关已被绑定</string>
+    <string name="bind_gateway_not_activated">您当前连接的网关未激活</string>
+    <string name="bind_gateway_binding_timeout">绑定网关超时</string>
+    <string name="gateway_unbound_notification">您的当前网关已经被解绑</string>
+    <string name="socket_establish_out_of_time">无法连接到网关</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- 绑定网关相关 end -->
+    <!-- 智能限速   start -->
+    <string name="intelligent_speed_limit">网速分配</string>
+    <string name="limit">限</string>
+    <string name="limit_zero">0</string>
+    <string name="limit_zero_tip">0KB/s为不限速</string>
+    <string name="speed_limit_no_update">上传不限速</string>
+    <string name="speed_limit_no_download">下载不限速</string>
+    <string name="auto_allocation_model">自动分配模式</string>
+    <string name="auto_allocation_width">所有设备自动进行带宽分配</string>
+    <string name="priority_model">优先级模式</string>
+    <string name="priority_function">优先级越高带宽分配越多</string>
+    <string name="manual_model">手动限速模式</string>
+    <string name="manual_model_function">设备最高带宽不超过设定值</string>
+    <string name="device_list">设备列表</string>
+    <string name="down_limit_speed">下行限速</string>
+    <string name="down_limit_speed_set">下载最高网速</string>
+    <string name="up_limit_speed">上行限速</string>
+    <string name="up_limit_speed_set">上传最高网速</string>
+    <string name="input_invalid_up_speed">上行限速设置不合法</string>
+    <string name="input_invalid_down_speed">下行限速设置不合法</string>
+    <string name="input_speed_not_null">限速数值不能为空</string>
+    <string name="input_speed_not_zero">限速数值不能为0</string>
+    <string name="limit_speed_set">限速设置</string>
+    <!-- 宽带提速   start -->
+    <string name="broadband_speedup">宽带提速</string>
+    <string name="broadband_account">宽带账号:%1$s</string>
+    <string name="base_speed">基础带宽:%1$s</string>
+    <string name="current_speed">当前带宽</string>
+    <string name="speedup_rest_time">提速剩余</string>
+    <string name="my_order">我的订购</string>
+    <string name="speedup_products">提速产品</string>
+    <string name="speedup_confirm">提速确认</string>
+    <string name="speedup_broad_and_time">提速至%1$s，时长%2$s小时</string>
+    <string name="speedup_start">立即提速</string>
+    <string name="speedup_stop">关闭提速</string>
+    <string name="speedup_remain_time">提速中，剩余%1$s小时%2$s分</string>
+    <string name="speedingup_speed">提速带宽%1$s</string>
+    <string name="speedingup_time">提速时长%1$s小时</string>
+    <string name="free_speedup_chance">你还有%1$s次机会哦</string>
+    <string name="coming_soon">敬请期待！</string>
+    <string name="si_chuan_provence">四川</string>
+    <string name="confirm_speedup_stop">关闭提速确认</string>
+    <string name="confirm_speedup_stop_tip">此体验包为一次性体验包，现在关闭提速后此次体验将结束，是否立即关闭？</string>
+    <string name="tip">提示</string>
+    <string name="speed_up_fail_tip">体验失败，您的宽带已处于提速中，请先关闭上一次提速体验</string>
+    <string name="speed_up_time_over">您的体验时长已满，带宽将恢复至基础带宽</string>
+    <string name="get_speed_up_list_fail">获取宽带提速列表失败，请稍后重试</string>
+    <string name="speed_up_fail">提速失败，请重试</string>
+    <string name="stop_speed_up_fail">关闭失败，请重试</string>
+
+    <!-- 智能网管插件   end -->
+    <!-- 定时界面   start -->
+    <string name="select_all">全选</string>
+    <string name="cancel_all">全部取消</string>
+    <string name="storage">存储</string>
+    <string name="timing_process">定时数据正在请求&#8230;</string>
+    <string name="timing">健康模式</string>
+    <string name="edit">编辑</string>
+    <string name="timing_limit20">最多可设置10个时间段，请先删除部分设置</string>
+
+    <string name="timing_exists">已设置过该定时断网时间段，请重新设置</string>
+    <string name="timing_contains">当前时间段与定时列表的时间段有包含部分，请重新设置</string>
+    <string name="timing_add">添加定时</string>
+    <string name="timing_error">开始与结束时间不能相同，请重新设置</string>
+    <string name="timing_modify">编辑定时</string>
+    <string name="timing_delete">删除定时</string>
+    <string name="timing_delete_tip">确定删除此定时？</string>
+    <string name="timing_conflict_tip">与已有定时设置冲突，不能被操作！</string>
+    <string name="timing_delete_ok">删除成功</string>
+    <string name="timing_operate_succ">操作成功</string>
+    <string name="timing_operate_fail">操作失败</string>
+    <string name="time_working">工作时间</string>
+    <string name="timing_no">未设置定时场景</string>
+    <string name="timing_start">开始时间</string>
+    <string name="timing_end">结束时间</string>
+    <string name="timing_setting">时间设置</string>
+    <string name="repeat">重复</string>
+    <string name="sunday">日</string>
+    <string name="monday">一</string>
+    <string name="tuesday">二</string>
+    <string name="wednesday">三</string>
+    <string name="thursday">四</string>
+    <string name="friday">五</string>
+    <string name="saturday">六</string>
+    <string name="week_sunday">周日</string>
+    <string name="week_monday">周一</string>
+    <string name="week_tuesday">周二</string>
+    <string name="week_wednesday">周三</string>
+    <string name="week_thursday">周四</string>
+    <string name="week_friday">周五</string>
+    <string name="week_saturday">周六</string>
+    <string name="time_min">00:00</string>
+    <string name="time_max">24:00</string>
+    <string name="split_ZH"> —— </string>
+    <string name="everyday">每天</string>
+    <string name="workday">工作日</string>
+    <string name="weeken">周末</string>
+    <string name="time_between">%1$s至%2$s</string>
+    <string name="only_once">执行一次</string>
+    <string name="health_tip">定时关闭Wi-Fi，避免熬夜上网，开启健康上网</string>
+    <string name="add_timing_hint">点击下方“加号”添加时间，开启绿色上网~</string>
+    <string name="gateway_week_report">网络周报</string>
+    <string name="share_gateway_week_report_hint">本周网络报告新鲜出炉，快来跟我PK一下！</string>
+
+    <string-array name="week_days">
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+        <item>周日</item>
+    </string-array>
+
+    <!-- 场景定时界面   end -->
+    <string name="network_problem">点击屏幕重新加载</string>
+    <string name="hardware_store">硬件商城</string>
+    <!-- 设备模块 end -->
+
+    <!-- 智能硬件相关 start -->
+    <string name="install_status_unknown">未知</string>
+    <string name="install_status_undownloaded">下载</string>
+    <string name="install_status_downloading">取消</string>
+    <string name="install_status_uninstalled">安装</string>
+    <string name="install_status_installing">安装中&#8230;</string>
+    <string name="smart_hardware_setting_is_owned">已购买</string>
+    <string name="smart_hardware_setting_not_owned">没有，去购买</string>
+    <string name="smart_hardware_setting_title">您是否已购买%1s？</string>
+    <string name="smart_hardware_purchase">购买</string>
+    <string name="no_smart_hardware">暂无可接入的智能硬件</string>
+    <!-- 智能硬件相关 end -->
+    <!-- tab  标题 start -->
+    <string name="my_gateway">网络</string>
+    <string name="smart_gateway">智能家庭网关</string>
+    <string name="my_family">聊聊</string>
+    <string name="my_device">设备</string>
+    <string name="index">生活</string>
+    <string name="smart_hardware">智能硬件</string>
+    <!-- tab  标题 end -->
+
+    <string name="head_pull_down_to_refresh">下拉刷新</string>
+    <string name="head_refreshing">努力加载</string>
+    <string name="head_release_to_refresh">释放刷新</string>
+    <string name="head_refresh_complete">更新完成.</string>
+
+    <!-- VOIP strings start -->
+    <string name="personal_name_title">昵称</string>
+    <string name="personal_name">--</string>
+    <string name="meeting_number_title">专属会议号：</string>
+    <string name="meeting_number">--</string>
+    <string name="logout">退出登录</string>
+    <string name="take_a_photo">拍照</string>
+    <string name="choose_from_album">从相册中选择</string>
+    <string name="get_verification_code">获取验证码</string>
+    <string name="user_name">请输入您的姓名</string>
+    <string name="register_notification">建议使用常用称呼</string>
+    <string name="start_use">开始使用</string>
+    <string name="input_verification_code_regesiter">输入验证码进行注册</string>
+    <string name="input_verification_code_login">输入验证码进行登录</string>
+    <string name="send_code_again">重新发送</string>
+    <string name="send_code_again_time">（60s）</string>
+    <string name="wrong_verification_code">验证码错误，请重新输入</string>
+    <string name="input_phone_number">输入手机号  </string>
+    <string name="wrong_phone_number">手机号码错误</string>
+    <string name="first_use">您的手机号即个人专属会议号，参会人在应用中拨打即可加入您的会议。</string>
+    <string name="confirm">确 定</string>
+    <string name="null_number">你输入的是一个无效的手机号码</string>
+    <string name="i_know">我知道了</string>
+    <string name="first_create_meeting">该标志表示，与会人通过系统电话入会，这会消耗您的通话时长。</string>
+    <string name="no_free_duration">您的通话时长不足，无法向受邀人发出系统电话邀请。受邀人需要通过[小溪云会议APP]加入会议。</string>
+    <string name="register_success">您的手机号即个人专属会议号，参会人在应用中拨打即可加入加入您的会议。</string>
+    <string name="please_add_member">请点击右上角“添加”，邀请参会人入会</string>
+    <string name="feedback_hint">&#160;请输入您的问题和建议</string>
+    <string name="submit">提交</string>
+    <string name="submit_success">感谢您的宝贵意见，我们会尽快处理。</string>
+    <string name="submit_error">提交失败，请稍候再试</string>
+    <string name="logout_title">确认退出小溪会议？</string>
+    <string name="stopmetting_title">确定结束会议？</string>
+    <string name="yes">确 定</string>
+    <string name="no">取 消</string>
+    <string name="update_version">版本更新</string>
+    <string name="version_detail">您的版本已经是最新的了~</string>
+    <string name="confirm_logout">确认退出小溪会议？</string>
+    <string name="empty_name">昵称不能为空</string>
+    <string name="wrong_name">姓名不合法</string>
+    <string name="wrong_name_details">姓名支持32字以内的汉字、数字、字母、下划线</string>
+    <string name="abnormal_network">网络异常</string>
+    <string name="abnormal_network_detail">网络连接异常，请检查网络设置。</string>
+    <string name="feedback_toast">感谢您的宝贵意见，我们会尽快处理。</string>
+    <string name="account_confit">账号在异地登录或者账号已失效，请重新登录</string>
+
+    <!--account -->
+    <string name="left_freecall_time">本月剩余免费电话时长：</string>
+    <string name="account_illustration">免费电话时长是什么：</string>
+    <string name="account_illustration_detail">您可以在免费时长内拨打手机或座机号码，联系未使用“小溪云会议”的人。</string>
+
+    <!--conference-->
+    <string name="conference_input_num">输入会议号加入会议</string>
+    <string name="conference_join">加入会议</string>
+    <string name="conference_detail">会议详情</string>
+    <string name="conference_topic">会议主题:&#160;</string>
+    <string name="conference_number">会议号:&#160;&#160;</string>
+    <string name="conference_time">发起时间:&#160;&#160;</string>
+    <string name="conference_name">发起人:&#160;&#160;</string>
+    <string name="conference_jionpepole">参与人员:</string>
+    <string name="conference_list_copywriting">点击创建新会议</string>
+    <string name="conference_theme_error">请输入40字以内的中英文、数字、下划线</string>
+    <string name="conference_launch">发起</string>
+    <string name="conference_launch_no_contact">通讯录中还没有人使用小溪云会议哦</string>
+    <string name="invite_contact">前往邀请</string>
+    <string name="conference_no_wifi_tip">提示：非WiFi网络环境可能会消耗大量流量。</string>
+    <string name="conference_no_wifi_continue">继续</string>
+    <string name="videoconference_tips">点击成员图像对TA进行操作</string>
+    <string name="conference_pepole_name">--</string>
+    <string name="conference_pepole_phone">--</string>
+    <string name="conference_state">会议中</string>
+    <string name="conference_mute">禁言</string>
+    <string name="conference_remove">移出</string>
+    <string name="conference_invitepepole">会议通话</string>
+    <string name="conference_lock">会议锁定已开启</string>
+    <string name="conference_unlock">会议锁定已解除</string>
+    <string name="conference_close">确定结束通话？</string>
+    <string name="refresh">刷新</string>
+    <string name="join_meeting">加入</string>
+    <string name="begin_tiem">开始时间:&#160;</string>
+    <string name="meeting_author">发起人:&#160;</string>
+    <string name="voip_please_close_prior_meeting">请先结束上次通话再进行会议通话</string>
+    <string name="voip_meeting_is_going">正在通话中...</string>
+    <string name="voip_video_meeting_is_going">视频聊天中，轻击打开</string>
+    <string name="voip_audio_meeting_is_going">语音聊天中，轻击打开</string>
+    <!--contact -->
+    <string name="contact_invite">邀请</string>
+    <string name="contact_search"> 搜索</string>
+    <string name="contact_search_hint"> 搜索</string>
+    <string name="contact_tip"> 可输入电话号码添加不在通讯录的与会人</string>
+    <string name="contact_search_tip"> 输入 [姓名] 或 [电话] \n开始搜索</string>
+    <string name="contact_hint_enter_full_number"> 输入完整号码，呼叫非通讯录人员</string>
+    <string name="contact_enter_number_error"> 输入的号码应为手机号或固定电话号。</string>
+    <string name="register_contact_conference"> 只有小溪云会议注册用户才能使用视频会议功能。可以通过“通讯录-联系人”邀请联系人注册小溪云会议。</string>
+    <string name="know_it">知道了</string>
+    <string name="load_contact_tip">正在加载联系人</string>
+    <!--settings -->
+    <string name="feedback_submit">提交失败，请稍候再试</string>
+    <string name="save_change_nick_success">保存姓名成功</string>
+    <string name="version_update">立即更新</string>
+    <string name="wait_tip">稍等，马上就好啦。</string>
+    <string name="new_version_content">更新內容</string>
+    <string name="app_versionName">V1.2.0(10091730)</string>
+    <string name="choose_members">选择家庭成员</string>
+    <string name="voip_notify_multi_video_conf">人视频聊天</string>
+    <string name="voip_notify_multi_audio_conf">人语音聊天</string>
+    <!-- VOIP strings end -->
+
+    <string name="call_time">持续时间</string>
+    <string name="call_invite">邀请你语音通话</string>
+    <string name="call_creator">发起人</string>
+    <string name="calling">正在接通...</string>
+    <string name="call_failed">拒绝或超时</string>
+    <string name="call_video_failed">拒绝视频或超时未连接...</string>
+    <string name="my_call">我的通话</string>
+    <string name="video_call_inivite">邀请你视频通话</string>
+    <string name="video_call_is_not_wifi">在移动网络环境下会影响视频聊天质量，并产生手机流量，确定继续？</string>
+    <string name="call_is_not_wifi">在移动网络环境下会影响语音聊天质量，并产生手机流量，确定继续？</string>
+    <string name="call_remove">从通话移除</string>
+    <string name="suggest">提示</string>
+    <string name="atmostcatwarning">已达视频人数上限</string>
+
+    <string name="device_class_security_set">安防套件</string>
+
+    <string name="call_time_out">语音通话已超时</string>
+    <string name="call_video_time_out">视频通话已超时</string>
+    <string name="call_video_max">最多只能4个人视频哦</string>
+    <string name="call_max">最多只能6个人语音聊天哦！</string>
+    <string name="close">关闭</string>
+    <string name="tv">电视</string>
+    <string name="life_msg_title">消息小助手，新鲜资讯不错过</string>
+    <string name="news_title">和家头条</string>
+    <string name="news_tab_for_you">为你推荐</string>
+    <string name="news_number_tip">成功为你推荐%1$s条新内容</string>
+    <string name="news_user_name">%1$s</string>
+    <string name="news_for_user">，精选海量新闻，只为不一样的你！</string>
+
+    <string name="special_back">返回</string>
+    <string name="special_none">无</string>
+    <string name="gateway_connect_wifi_tip">1.请确保所连WiFi与网关底部的SSID名称一致\n2.若已修改，请使用最新名称与密码</string>
+    <string name="not_connect_to_wifi">当前未连接WiFi</string>
+    <string name="connected_to_wifi">当前WiFi：</string>
+    <string name="connect_wifi">连接WiFi</string>
+    <string name="input_gateway_identification">请输入位于网关底部的登录用户账号和密码</string>
+    <string name="bind_gateway">绑定网关</string>
+    <string name="gateway_scan_code_tip">将网关底部<font color="#30C0B1">条形码放入框内，即可自动扫描</font></string>
+    <string name="bind_smart_gateway">绑定网关</string>
+    <string name="manual_add_gateway_failed_tip3">3.确保扫描正确二维码</string>
+    <string name="scan_add_gateway_failed_tip3">3.请输入正确的登录用户账号和密码</string>
+    <string name="add_gateway_failed_tip1">1.当前WiFi为<font color='#FE8E68'>%1$s</font>，请确定是否和网关WiFi名称一致</string>
+
+    <string name="no_family_no_suggest">不再推荐</string>
+    <string name="no_family_suggest_hint">为你推荐</string>
+    <string name="no_family_suggest_title">您还没有家人，快邀请您的家人回家，一起分享生活，记录美好瞬间！</string>
+    <string name="has_family_suggest_title">他们可能也是您的家人哦，赶紧继续邀请他们回家吧！</string>
+    <string name="no_family_invite_hint">邀请您的亲友回家</string>
+    <string name="send_invite">发送邀请</string>
+    <string name="choose_phone_title">请选择%1$s的号码</string>
+    <string name="has_family_suggest_empty_hint">赶紧点击添加家人，一起分享生活，记录美好瞬间！</string>
+    <string name="no_family_suggest_empty_hint">您还没有家人哦，赶紧添加家人或加入家庭，与家人一起分享生活，记录美好瞬间！</string>
+
+    <string name="input_phone_join">手动加入</string>
+    <string name="scan_family_hint">将家庭二维码放入框内，即可扫描</string>
+    <string name="invite_phones_success">邀请成功</string>
+    <string name="invite_create_success">创建家庭成功</string>
+
+    <string name="group_chat_notice">[有新公告]</string>
+    <string name="no_camera_permission">无法获取摄像头数据，请检查是否已经打开摄像头权限</string>
+    <string name="no_gonggao_hint">暂无公告，去发布新公告吧~</string>
+    <string name="list_all">查看全部</string>
+
+    <string name="choose_city">城市选择</string>
+    <string name="default_city">北京</string>
+    <string name="attend_user_experience_improvement">和家亲用户体验改善计划</string>
+    <string name="attend">参与</string>
+    <string name="call_someone">呼叫%1$s</string>
+    <string name="groupchat_name">群名称</string>
+    <string name="default_sso_error">登录失败[%1$s]</string>
+
+    <string name="family_msg_flow_yesterday">昨天</string>
+    <string name="family_msg_flow_day_before">前天</string>
+
+    <string name="im_img_browser_filter_compete">全部完成</string>
+    <string name="im_img_browser_filter_index">%1$d/%2$d</string>
+    <string name="im_img_browser_filter_dialog_title">仍然在美化，是否退出？</string>
+    <string name="im_img_browser_filter_dialog_item0">退出</string>
+    <string name="im_img_browser_filter_dialog_item1">保存并退出</string>
+    <string name="im_img_choose_publish">一键上传</string>
+    <string name="im_img_choose_edit_publish">编辑上传</string>
+    <string name="im_img_choose_num_hint">已选择%1$d张</string>
+    <string name="msg_select_pics_finish_multi_unlimited">完成(%1$d)</string>
+
+    <string name="disclaimer_title">免责申明</string>
+    <string name="disclaimer_know">我知道了</string>
+
+    <string name="generate_photo_share">分享</string>
+    <string name="order_server">我的订单</string>
+    <string name="get_share_family_album_info_fail_tip">获取时光相册分享信息失败</string>
+    <string name="index_familyalbum_share_photos_title">%s的时光家园</string>
+    <string name="index_familyalbum_share_photos_content">定格美好，留下我们的时光。</string>
+
+
+    <string name="my_tab_title">我的</string>
+
+    <!--下拉刷新-->
+    <string name="smart_refresh_custom_header_pull_down">下拉刷新</string>
+    <string name="smart_refresh_custom_header_release">释放刷新</string>
+    <string name="smart_refresh_custom_header_refreshing">正在刷新</string>
+
+    <!--获得亲密豆弹窗-->
+    <string name="family_get_bean_sign_success_title">签到成功</string>
+    <string name="family_get_bean_setting_title">设置成功</string>
+    <string name="family_get_bean_content">恭喜你获得%1$d个亲密豆</string>
+    <!--Permission-->
+    <string name="resume">继续</string>
+    <string name="permission_camera">相机</string>
+    <string name="permission_contact">联系人</string>
+    <string name="permission_location">位置</string>
+    <string name="permission_calendar">日历</string>
+    <string name="permission_microphone">麦克风</string>
+    <string name="permission_storage">存储</string>
+    <string name="permission_phone">电话</string>
+    <string name="permission_sensors">传感器</string>
+    <string name="permission_sms">短信</string>
+    <string name="successfully">成功</string>
+    <string name="failure">失败</string>
+    <string name="camera_open_error">相机打开失败</string>
+    <string name="image_process_wrong">图片处理出错</string>
+
+    <string name="title_dialog">提示</string>
+    <string name="message_permission_rationale">允许以下权限以便程序继续执行：\n\n%1$s</string>
+    <string name="message_permission_always_failed">我们需要以下权限，请在设置中为我们开启：\n\n%1$s</string>
+
+    <string name="permission_setting">权限设置</string>
+    <string name="webview_ssl_error">与此网站建立的连接不安全，已取消加载</string>
+    <string name="webview_no_provider">无法加载WebView</string>
+<!--支付sdk-->
+    <string name="activity_payment_mode_title1">选择支付方式</string>
+    <string name="activity_cmcc_pay_result">交易结果</string>
+    <string name="activity_cmcc_pay_result_success">支付成功</string>
+    <string name="activity_cmcc_pay_success">成功支付</string>
+    <string name="activity_cmcc_pay_yuan">元</string>
+    <!--支付sdk-->
+
+    <!-- 分省定制popup的OK按钮 -->
+    <string name="province_ok_btn_str">去看详情</string>
+
+</resources>
