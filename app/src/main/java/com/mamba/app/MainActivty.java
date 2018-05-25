@@ -1,6 +1,7 @@
 package com.mamba.app;
 
 import android.content.Intent;
+import android.view.View;
 
 import com.mamba.mambasdk.ui.BaseFragmentActivity;
 
@@ -51,5 +52,13 @@ public class MainActivty extends BaseFragmentActivity{
     @Override
     protected void initDatas() {
 
+    }
+
+    public void onVideoCacheDemoClick(View view) {
+        startActivity(new Intent(this,VideoDemoActivity.class));
+    }
+
+    public void onTimePickerDemoClick(View view) {
+        startActivity(new Intent(this,TimePickDemoActivity.class));
     }
 }

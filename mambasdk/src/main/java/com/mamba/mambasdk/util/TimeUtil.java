@@ -34,6 +34,32 @@ public class TimeUtil {
     }
 
     /**
+     * 2个时间之间时间间隔
+     *
+     * @param calendar1
+     * @param calendar2
+     * @return
+     */
+    public static int daysBetween(Date calendar1, Date calendar2) {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
+        try {
+            calendar1 = sdf.parse(sdf.format(calendar1));
+            calendar2 = sdf.parse(sdf.format(calendar2));
+            Calendar cal = Calendar.getInstance();
+            cal.setTime(calendar1);
+            long time1 = cal.getTimeInMillis();
+            cal.setTime(calendar2);
+            long time2 = cal.getTimeInMillis();
+            long betweenDays = (time2 - time1) / (1000 * 3600 * 24);
+            return Integer.parseInt(String.valueOf(betweenDays));
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return 0;
+
+    }
+
+    /**
      * @param parseTime call time in long format.
      * @return call time in special format string.
      * @author m00223591
@@ -59,9 +85,9 @@ public class TimeUtil {
         SimpleDateFormat otherFormat = new SimpleDateFormat("yyyy-MM-dd", Locale.US);
 
         boolean isToday = (curDay == oldTime.get(Calendar.DAY_OF_MONTH)) && (curMonth == oldTime.get(Calendar.MONTH))
-                && (curYear == oldTime.get(Calendar.YEAR));
+            && (curYear == oldTime.get(Calendar.YEAR));
         boolean isBeforeDay = (curBeforeDay == oldTime.get(Calendar.DAY_OF_MONTH))
-                && (curMonth == oldTime.get(Calendar.MONTH)) && (curYear == oldTime.get(Calendar.YEAR));
+            && (curMonth == oldTime.get(Calendar.MONTH)) && (curYear == oldTime.get(Calendar.YEAR));
         boolean isSameYear = (curYear == oldTime.get(Calendar.YEAR));
 
         if (isToday) {
@@ -563,6 +589,7 @@ public class TimeUtil {
 
     /**
      * Translate HH:mm to Date
+     *
      * @param formatStr
      * @return
      */
@@ -581,6 +608,7 @@ public class TimeUtil {
 
     /**
      * Date转成yyyy-MM-dd HH:mm:ss
+     *
      * @param date
      * @return
      */
@@ -594,6 +622,7 @@ public class TimeUtil {
 
     /**
      * Date转成HH:mm
+     *
      * @param date
      * @return
      */
