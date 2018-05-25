@@ -4,6 +4,7 @@ def initGradleEnvironment() {
     File propertyFile = new File(rootDir.getAbsolutePath() + "/local.properties")
     properties.load(propertyFile.newDataInputStream())
     gradle.ext.sourceMambaSdk = Boolean.parseBoolean(properties.getProperty('sourceMambaSdk'))
+    gradle.ext.repoChannel = String.valueOf(properties.getProperty('repoChannel'))
 }
 
 initGradleEnvironment()
