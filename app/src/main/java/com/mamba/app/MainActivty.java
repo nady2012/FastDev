@@ -54,7 +54,7 @@ public class MainActivty extends BaseFragmentActivity{
 
     }
 
-    public void onMamaClick(View view) {
+    public void onVideoCacheDemoClick(View view) {
         startActivity(new Intent(this,VideoDemoActivity.class));
     }
 }

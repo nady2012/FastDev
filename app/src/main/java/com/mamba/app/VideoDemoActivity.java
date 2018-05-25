@@ -10,12 +10,13 @@ import android.widget.RelativeLayout;
 import android.widget.VideoView;
 
 import com.danikula.videocache.HttpProxyCacheServer;
+import com.mamba.mambasdk.ui.BaseActivity;
 import com.mamba.mambasdk.video.MVideoCacheWrapper;
 
 /**
  * The type Real time play demo activity.
  */
-public class VideoDemoActivity extends com.mamba.mambasdk.ui.BaseActivity {
+public class VideoDemoActivity extends BaseActivity {
 
 
     private VideoView videoView;
